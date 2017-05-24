@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.syr" 
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.syr" 

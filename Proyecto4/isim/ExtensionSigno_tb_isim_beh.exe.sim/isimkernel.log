@@ -1,0 +1,29 @@
+Command line:
+   ExtensionSigno_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64236
+
+Wed May 24 12:01:14 2017
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 845.824 Meg
+
+ Total Signals          : 16
+ Total Nets             : 61
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 157
+Total Line Count : 24
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 688.538 Meg
+
+Wed May 24 12:02:20 2017
+
