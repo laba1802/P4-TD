@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/alu.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/alu.syr" 
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/alu.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/alu.syr" 
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/alu.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/alu.syr" 
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/alu.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/alu.syr" 

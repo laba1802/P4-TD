@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_imm.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_imm.syr" 
