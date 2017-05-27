@@ -68,7 +68,7 @@ module RegInstruccion_tb;
 		ir_w = 1; 
 		instruction = 32'b00010000000000000000000000110000;
 		
-		#20;
+		//#20;
 		//ir_w = 0;
 		
 		#40 $finish;

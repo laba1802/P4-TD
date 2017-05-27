@@ -50,42 +50,42 @@ module RegInstruccion(
 		immediate_reg 	 = 0;
 	 end
 
-	 always @ (posedge clk) begin
+	 always @ (posedge clk) begin				
+		case(instruction[31:26])
+			6'h0:  type_opcode = type_R; // Tipo R
+			6'h4:  type_opcode = type_I; // beq
+			6'h5:  type_opcode = type_I; // bne
+			6'h2:  type_opcode = type_J; // j
+			6'h23: type_opcode = type_I; // lw
+			6'h2b: type_opcode = type_I; // sw
+		endcase
+	 end
+
+	 always @ (negedge clk) begin
 		if(ir_w)  
-			begin
-				instruction_reg <= instruction;
-				
-				case(instruction_reg[31:26])
-					6'h0:  type_opcode = type_R; // Tipo R
-					6'h4:  type_opcode = type_I; // beq
-					6'h5:  type_opcode = type_I; // bne
-					6'h2:  type_opcode = type_J; // j
-					6'h23: type_opcode = type_I; // lw
-					6'h2b: type_opcode = type_I; // sw
-				endcase
-				
+			begin				
 				case(type_opcode)
 					type_R: begin
-									opcode_reg 		 = instruction_reg[31:26];
+									opcode_reg 		 = instruction[31:26];
 									jumpAddress_reg = 0;
-									rs_reg    		 = instruction_reg[25:21];
-									rt_reg    		 = instruction_reg[20:16];
-									rd_reg    		 = instruction_reg[15:11];
-									funct_reg 		 = instruction_reg[5:0];
+									rs_reg    		 = instruction[25:21];
+									rt_reg    		 = instruction[20:16];
+									rd_reg    		 = instruction[15:11];
+									funct_reg 		 = instruction[5:0];
 									immediate_reg 	 = 0;
 							  end
 					type_I: begin
-									opcode_reg 		 = instruction_reg[31:26];
+									opcode_reg 		 = instruction[31:26];
 									jumpAddress_reg = 0;
 									funct_reg 		 = 0;
-									rs_reg        	 = instruction_reg[25:21];
-									rt_reg        	 = instruction_reg[20:16];
+									rs_reg        	 = instruction[25:21];
+									rt_reg        	 = instruction[20:16];
 									rd_reg 			 = 0;
-									immediate_reg 	 = instruction_reg[15:0];
+									immediate_reg 	 = instruction[15:0];
 							  end
 					type_J: begin
-									opcode_reg 		 = instruction_reg[31:26];
-									jumpAddress_reg = instruction_reg[25:0];
+									opcode_reg 		 = instruction[31:26];
+									jumpAddress_reg = instruction[25:0];
 									opcode_reg 		 = 0;
 									funct_reg 		 = 0;
 									rs_reg 			 = 0;

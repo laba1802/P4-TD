@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>alu (D:/FPGA/P4-TD/Proyecto4/alu.v)</SelectedItem>
+         <SelectedItem>RegInstruccion (D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015d0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>alu (D:/FPGA/P4-TD/Proyecto4/alu.v)</CurrentItem>
+      <CurrentItem>RegInstruccion (D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -75,6 +75,7 @@
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BancoRegistros_tb D:|FPGA|P4-TD|Proyecto4|BancoRegistros_tb.v</ClosedNode>
          <ClosedNode>/Desplazamiento_imm_tb D:|FPGA|P4-TD|Proyecto4|Desplazamiento_imm_tb.v</ClosedNode>
          <ClosedNode>/Desplazamiento_jumpAddress_tb D:|FPGA|P4-TD|Proyecto4|Desplazamiento_jumpAddress_tb.v</ClosedNode>
          <ClosedNode>/ExtensionSigno_tb D:|FPGA|P4-TD|Proyecto4|ExtensionSigno_tb.v</ClosedNode>
@@ -82,15 +83,16 @@
          <ClosedNode>/Mux_Sel_Dest_tb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_Dest_tb.v</ClosedNode>
          <ClosedNode>/Mux_Sel_Dir_rb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_Dir_rb.v</ClosedNode>
          <ClosedNode>/RegInstruccion_tb D:|FPGA|P4-TD|Proyecto4|RegInstruccion_tb.v</ClosedNode>
+         <ClosedNode>/alu_tb D:|FPGA|P4-TD|Proyecto4|alu_tb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>alu_tb (D:/FPGA/P4-TD/Proyecto4/alu_tb.v)</SelectedItem>
+         <SelectedItem>RegInstruccion_tb (D:/FPGA/P4-TD/Proyecto4/RegInstruccion_tb.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>alu_tb (D:/FPGA/P4-TD/Proyecto4/alu_tb.v)</CurrentItem>
+      <CurrentItem>RegInstruccion_tb (D:/FPGA/P4-TD/Proyecto4/RegInstruccion_tb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.syr" 
+xst -intstyle ise -ifn "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.xst" -ofn "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.syr" 

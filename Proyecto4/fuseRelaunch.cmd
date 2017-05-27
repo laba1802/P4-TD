@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FPGA/P4-TD/Proyecto4/alu_tb_isim_beh.exe" -prj "D:/FPGA/P4-TD/Proyecto4/alu_tb_beh.prj" "work.alu_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FPGA/P4-TD/Proyecto4/RegInstruccion_tb_isim_beh.exe" -prj "D:/FPGA/P4-TD/Proyecto4/RegInstruccion_tb_beh.prj" "work.RegInstruccion_tb" "work.glbl" 
