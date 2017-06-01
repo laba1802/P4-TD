@@ -1,0 +1,3 @@
+verilog work "Mux_Sel_PC.v"
+verilog work "Mux_Sel_PC_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

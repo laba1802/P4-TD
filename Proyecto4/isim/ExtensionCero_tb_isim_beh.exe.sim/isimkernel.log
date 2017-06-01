@@ -1,0 +1,29 @@
+Command line:
+   ExtensionCero_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58451
+
+Wed May 31 20:30:17 2017
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 846.287 Meg
+
+ Total Signals          : 16
+ Total Nets             : 61
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 157
+Total Line Count : 24
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 1160.86 Meg
+
+Wed May 31 20:30:50 2017
+
