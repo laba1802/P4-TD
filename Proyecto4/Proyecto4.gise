@@ -49,6 +49,18 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Desplazamiento_jumpAddress_tb_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ExtensionCero_tb_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ExtensionSigno_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Memoria.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Memoria.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Memoria.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Memoria.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Memoria.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Memoria.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Memoria.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Memoria.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Memoria_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Memoria_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Memoria_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Memoria_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux_OperA_tb_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux_OperB_tb_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux_Sel_Dat_tb_isim_beh.exe"/>
@@ -65,9 +77,7 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux_Sel_Dir_rb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Mux_Sel_Dir_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Mux_Sel_Dir_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux_Sel_PC_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Mux_Sel_PC_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Mux_Sel_PC_tb_isim_beh.wdb"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RegA_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RegInstruccion.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RegInstruccion.lso"/>
@@ -109,9 +119,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1496284595" xil_pn:in_ck="8055354638663319846" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1496284595">
+    <transform xil_pn:end_ts="1496288368" xil_pn:in_ck="4117083973916464137" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1496288368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BancoRegistros.v"/>
       <outfile xil_pn:name="BancoRegistros_tb.v"/>
       <outfile xil_pn:name="Concatenacion.v"/>
@@ -125,6 +139,7 @@
       <outfile xil_pn:name="ExtensionSigno.v"/>
       <outfile xil_pn:name="ExtensionSigno_tb.v"/>
       <outfile xil_pn:name="Memoria.v"/>
+      <outfile xil_pn:name="Memoria_tb.v"/>
       <outfile xil_pn:name="Mux_OperA.v"/>
       <outfile xil_pn:name="Mux_OperA_tb.v"/>
       <outfile xil_pn:name="Mux_OperB.v"/>
@@ -150,21 +165,27 @@
       <outfile xil_pn:name="alu_tb.v"/>
       <outfile xil_pn:name="main.v"/>
     </transform>
-    <transform xil_pn:end_ts="1496284595" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1345040755097916965" xil_pn:start_ts="1496284595">
+    <transform xil_pn:end_ts="1496288368" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8992530072476360970" xil_pn:start_ts="1496288368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1496284595" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8859595578963159143" xil_pn:start_ts="1496284595">
+    <transform xil_pn:end_ts="1496288368" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3827599969475583308" xil_pn:start_ts="1496288368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1495855596" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1335794377661705065" xil_pn:start_ts="1495855596">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1496284595" xil_pn:in_ck="8055354638663319846" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1496284595">
+    <transform xil_pn:end_ts="1496288368" xil_pn:in_ck="4117083973916464137" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1496288368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="BancoRegistros.v"/>
       <outfile xil_pn:name="BancoRegistros_tb.v"/>
       <outfile xil_pn:name="Concatenacion.v"/>
@@ -178,6 +199,7 @@
       <outfile xil_pn:name="ExtensionSigno.v"/>
       <outfile xil_pn:name="ExtensionSigno_tb.v"/>
       <outfile xil_pn:name="Memoria.v"/>
+      <outfile xil_pn:name="Memoria_tb.v"/>
       <outfile xil_pn:name="Mux_OperA.v"/>
       <outfile xil_pn:name="Mux_OperA_tb.v"/>
       <outfile xil_pn:name="Mux_OperB.v"/>
@@ -203,20 +225,28 @@
       <outfile xil_pn:name="alu_tb.v"/>
       <outfile xil_pn:name="main.v"/>
     </transform>
-    <transform xil_pn:end_ts="1496284600" xil_pn:in_ck="8055354638663319846" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5603524586368813109" xil_pn:start_ts="1496284595">
+    <transform xil_pn:end_ts="1496288374" xil_pn:in_ck="4117083973916464137" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8885037261957943051" xil_pn:start_ts="1496288368">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Mux_Sel_PC_tb_beh.prj"/>
-      <outfile xil_pn:name="Mux_Sel_PC_tb_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Memoria_tb_beh.prj"/>
+      <outfile xil_pn:name="Memoria_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1496284600" xil_pn:in_ck="-8319152079899848533" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8391522469499630104" xil_pn:start_ts="1496284600">
+    <transform xil_pn:end_ts="1496288374" xil_pn:in_ck="7452574270202996409" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8578070143081269202" xil_pn:start_ts="1496288374">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Mux_Sel_PC_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Memoria_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
