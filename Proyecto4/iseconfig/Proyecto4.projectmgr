@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>main (C:/Users/sebvi/Desktop/P4-TD-master/Proyecto4/main.v)</SelectedItem>
+         <SelectedItem>regInst_unit - RegInstruccion (D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000015d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000015d0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>main (C:/Users/sebvi/Desktop/P4-TD-master/Proyecto4/main.v)</CurrentItem>
+      <CurrentItem>regInst_unit - RegInstruccion (D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -23,13 +23,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -38,7 +38,7 @@
       <SelectedItems>
          <SelectedItem>Memoria.v</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b10000000100000000000000240000000100000000000000660000000100000000000001420000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -53,7 +53,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000103000000010001000100000000000000000000000064ffffffff000000810000000000000001000001030000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>alu.v</CurrentItem>
    </ItemView>
@@ -71,7 +71,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000114000000010000000100000000000000000000000064ffffffff000000810000000000000001000001140000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -79,41 +79,37 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/BancoRegistros_tb D:|FPGA|P4-TD|Proyecto4|BancoRegistros_tb.v</ClosedNode>
+         <ClosedNode>/Concatenacion_tb D:|FPGA|P4-TD|Proyecto4|Concatenacion_tb.v</ClosedNode>
          <ClosedNode>/Desplazamiento_imm_tb D:|FPGA|P4-TD|Proyecto4|Desplazamiento_imm_tb.v</ClosedNode>
          <ClosedNode>/Desplazamiento_jumpAddress_tb D:|FPGA|P4-TD|Proyecto4|Desplazamiento_jumpAddress_tb.v</ClosedNode>
+         <ClosedNode>/ExtensionCero_tb D:|FPGA|P4-TD|Proyecto4|ExtensionCero_tb.v</ClosedNode>
          <ClosedNode>/ExtensionSigno_tb D:|FPGA|P4-TD|Proyecto4|ExtensionSigno_tb.v</ClosedNode>
+         <ClosedNode>/MIPS_tb D:|FPGA|P4-TD|Proyecto4|MIPS_tb.v</ClosedNode>
+         <ClosedNode>/Memoria_tb D:|FPGA|P4-TD|Proyecto4|Memoria_tb.v</ClosedNode>
+         <ClosedNode>/Mux_OperA_tb D:|FPGA|P4-TD|Proyecto4|Mux_OperA_tb.v</ClosedNode>
          <ClosedNode>/Mux_OperB_tb D:|FPGA|P4-TD|Proyecto4|Mux_OperB_tb.v</ClosedNode>
+         <ClosedNode>/Mux_Sel_Dat_tb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_Dat_tb.v</ClosedNode>
          <ClosedNode>/Mux_Sel_Dest_tb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_Dest_tb.v</ClosedNode>
          <ClosedNode>/Mux_Sel_Dir_rb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_Dir_rb.v</ClosedNode>
+         <ClosedNode>/Mux_Sel_PC_tb D:|FPGA|P4-TD|Proyecto4|Mux_Sel_PC_tb.v</ClosedNode>
+         <ClosedNode>/RegA_tb D:|FPGA|P4-TD|Proyecto4|RegA_tb.v</ClosedNode>
          <ClosedNode>/RegInstruccion_tb D:|FPGA|P4-TD|Proyecto4|RegInstruccion_tb.v</ClosedNode>
+         <ClosedNode>/RegPC_tb D:|FPGA|P4-TD|Proyecto4|RegPC_tb.v</ClosedNode>
          <ClosedNode>/alu_tb D:|FPGA|P4-TD|Proyecto4|alu_tb.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Proyecto4</SelectedItem>
+         <SelectedItem>MIPS_tb (D:/FPGA/P4-TD/Proyecto4/MIPS_tb.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b60000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Proyecto4</CurrentItem>
+      <CurrentItem>MIPS_tb (D:/FPGA/P4-TD/Proyecto4/MIPS_tb.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Design Utilities</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem></SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000114000000010000000100000000000000000000000064ffffffff000000810000000000000001000001140000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
-   </ItemView>
-   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem/>
@@ -124,6 +120,33 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000131000000010000000100000000000000000000000064ffffffff000000810000000000000001000001310000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000eb0000005a01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc6slx16-3csg324</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000181000000020000000000000000000000000000000064ffffffff000000810000000000000002000001110000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc6slx16-3csg324</CurrentItem>
+   </ItemView>
 </Project>

@@ -26,7 +26,7 @@ module Mux_OperA(
     output [31:0] output_A
    );
 	
-	reg [31:0] mask4 = 32'h00000004;
+	localparam mask4 = 32'h00000004;
 	reg [31:0] output_reg;
 	
 	always @ (input_number or immediate_ext or immediate_desp or sel_operA)

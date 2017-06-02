@@ -1,0 +1,8 @@
+verilog work "RegPC.v"
+verilog work "RegInstruccion.v"
+verilog work "Mux_Sel_PC.v"
+verilog work "Mux_Sel_Dir.v"
+verilog work "Mux_OperB.v"
+verilog work "Mux_OperA.v"
+verilog work "alu.v"
+verilog work "MIPS.v"

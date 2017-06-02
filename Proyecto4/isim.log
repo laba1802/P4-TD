@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\FPGA\P4-TD\Proyecto4\Memoria_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/FPGA/P4-TD/Proyecto4/Memoria_tb_isim_beh.wdb 
+Running: D:\FPGA\P4-TD\Proyecto4\MIPS_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/FPGA/P4-TD/Proyecto4/MIPS_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,7 +11,7 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/MIPS_tb.v" Line 46
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -20,115 +20,25 @@ This is a Lite version of ISim.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-  0
-  0
-  0
-  0
-  0
- 63
- 63
- 63
- 63
- 63
- 63
- 63
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
- 1072693248
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-  0
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-4290772992
-4290772992
-4290772992
-4290772992
-4290772992
-         0
-         4
-         8
-        12
-         4
-         0
-         8
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-Stopped at time : 240 ns : File "D:/FPGA/P4-TD/Proyecto4/Memoria_tb.v" Line 88
+0
+1
+2
+3
+4
+0
+1
+2
+3
+4
+0
+1
+2
+3
+4
+0
+1
+2
+3
+4
+0
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/MIPS_tb.v" Line 47

@@ -36,16 +36,16 @@ module alu(
 	 always @ (*) begin
 	 
 		case(alu_fun)
-			op_add: result_reg = operB + operA;
-			op_sub: result_reg = operB - operA;
-			op_not: result_reg = ~operB;
-			op_and: result_reg = operB & operA;
-			op_or:  result_reg = operB | operA;					  
-			op_xor: result_reg = operB ^ operA;  
+			op_add: result_reg = operA + operB;
+			op_sub: result_reg = operA - operB;
+			op_not: result_reg = ~operA;
+			op_and: result_reg = operA & operB;
+			op_or:  result_reg = operA | operB;					  
+			op_xor: result_reg = operA ^ operB;  
 			default: result_reg = 0;
 		endcase
 		
-		if(alu_fun == op_sub && operB < operA) flag_negative = 1;
+		if(alu_fun == op_sub && operA < operB) flag_negative = 1;
 		else flag_negative = 0;
 		
 		if (result_reg[N+1] == 1) flag_carry = 1;

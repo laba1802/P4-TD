@@ -28,7 +28,7 @@ module RegPC(
 	reg [31:0] pc_reg;
 	
 	initial begin
-		pc_reg = 32'd0;
+		pc_reg = 32'h400000;
 	end
 	
 	always @ (negedge clk) begin
