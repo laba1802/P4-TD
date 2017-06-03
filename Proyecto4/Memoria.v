@@ -23,7 +23,7 @@ module Memoria(
 	input [31:0] data_input,
 	input mem_rd, 
 	input mem_wd, 
-	input clk,
+	//input clk,
 	output [31:0] data_output
 	);
 	
@@ -36,12 +36,14 @@ module Memoria(
 	
 	initial begin
 		for(i = 0; i < N; i = i + 1) memRegFile[i] <= 32'b0;
+		memRegFile[0] <= 32'h00EAF820;
+		memRegFile[1] <= 32'h8FF3AAAA;
 		data_output_reg = 0;
 		index_rd = 0;
 		index_wd = 0;
 	end
 	
-	always @ (posedge clk) 
+	always @ *
 	begin
 		if(dir >= initial_value) index_wd = (dir - initial_value)/4;
 		else index_wd = N;
@@ -49,7 +51,7 @@ module Memoria(
 		if(mem_wd) memRegFile[index_wd] <= data_input;
 	end
 	
-	always @ (negedge clk) begin
+	always @ * begin
 		if(dir >= initial_value) index_rd = (dir - initial_value)/4;
 		
 		if(mem_rd && dir >= initial_value) data_output_reg = memRegFile[index_rd];

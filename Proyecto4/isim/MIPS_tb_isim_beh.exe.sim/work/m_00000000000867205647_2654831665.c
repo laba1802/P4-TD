@@ -22,7 +22,8 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "D:/FPGA/P4-TD/Proyecto4/RegPC.v";
-static unsigned int ng1[] = {0U, 0U};
+static unsigned int ng1[] = {4194304U, 0U};
+static const char *ng2 = "PC";
 
 
 
@@ -86,7 +87,12 @@ LAB5:    xsi_set_current_line(35, ng0);
         goto LAB6;
 
 LAB7:
-LAB8:    goto LAB2;
+LAB8:    xsi_set_current_line(36, ng0);
+    t2 = (t0 + 1928);
+    t3 = (t2 + 56U);
+    t4 = *((char **)t3);
+    xsi_vlogfile_write(1, 0, 0, ng2, 2, t0, (char)118, t4, 32);
+    goto LAB2;
 
 LAB6:    xsi_set_current_line(35, ng0);
     t11 = (t0 + 1048U);
@@ -97,7 +103,7 @@ LAB6:    xsi_set_current_line(35, ng0);
 
 }
 
-static void Cont_38_2(char *t0)
+static void Cont_39_2(char *t0)
 {
     char *t1;
     char *t2;
@@ -117,7 +123,7 @@ LAB0:    t1 = (t0 + 3344U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(38, ng0);
+LAB2:    xsi_set_current_line(39, ng0);
     t2 = (t0 + 1928);
     t3 = (t2 + 56U);
     t4 = *((char **)t3);
@@ -137,7 +143,7 @@ LAB1:    return;
 
 extern void work_m_00000000000867205647_2654831665_init()
 {
-	static char *pe[] = {(void *)Initial_30_0,(void *)Always_34_1,(void *)Cont_38_2};
+	static char *pe[] = {(void *)Initial_30_0,(void *)Always_34_1,(void *)Cont_39_2};
 	xsi_register_didat("work_m_00000000000867205647_2654831665", "isim/MIPS_tb_isim_beh.exe.sim/work/m_00000000000867205647_2654831665.didat");
 	xsi_register_executes(pe);
 }

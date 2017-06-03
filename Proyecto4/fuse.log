@@ -1,19 +1,35 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FPGA/P4-TD/Proyecto4/MIPS_tb_isim_beh.exe" -prj "D:/FPGA/P4-TD/Proyecto4/MIPS_tb_beh.prj" "work.MIPS_tb" "work.glbl" 
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/FPGA/P4-TD/Proyecto4/main_tb_isim_beh.exe" -prj "D:/FPGA/P4-TD/Proyecto4/main_tb_beh.prj" "work.main_tb" "work.glbl" 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegPC.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegMemoria.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegB.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegALU.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegAB.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_PC.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dest.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dat.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_OperB.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_OperA.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/ExtensionSigno.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/ExtensionCero.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_pc.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_imm.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Concatenacion.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/alu.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/MIPS.v" into library work
-Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/MIPS_tb.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Memoria.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main_tb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
+WARNING:HDLCompiler:189 - "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 180: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 26-bit.
+WARNING:HDLCompiler:189 - "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 184: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 26-bit.
 Completed static elaboration
 Compiling module RegPC
 Compiling module Mux_Sel_Dir
@@ -22,12 +38,26 @@ Compiling module Mux_Sel_PC
 Compiling module Mux_OperA
 Compiling module Mux_OperB
 Compiling module alu
+Compiling module Mux_Sel_Dest
+Compiling module ExtensionCero
+Compiling module ExtensionSigno
+Compiling module RegA
+Compiling module RegB
+Compiling module Desplazamiento_imm
+Compiling module Desplazamiento_jumpAddress
+Compiling module Concatenacion
+Compiling module BancoRegistros
+Compiling module RegALU
+Compiling module RegMemoria
+Compiling module Mux_Sel_Dat
 Compiling module MIPS
-Compiling module MIPS_tb
+Compiling module Memoria
+Compiling module main
+Compiling module main_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 3 sub-compilation(s) to finish...
-Compiled 10 Verilog Units
-Built simulation executable D:/FPGA/P4-TD/Proyecto4/MIPS_tb_isim_beh.exe
-Fuse Memory Usage: 28068 KB
-Fuse CPU Usage: 952 ms
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable D:/FPGA/P4-TD/Proyecto4/main_tb_isim_beh.exe
+Fuse Memory Usage: 28284 KB
+Fuse CPU Usage: 1140 ms

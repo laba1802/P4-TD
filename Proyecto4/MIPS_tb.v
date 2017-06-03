@@ -27,20 +27,36 @@ module MIPS_tb;
 	// Inputs
 	reg clk;
 	reg reset;
+	reg [31:0] memOutput;
+	
+	// Outputs
+	wire [31:0] memDir;
+	wire [31:0] memDato;
+	wire mem_wd;
+	wire mem_rd;
+	
+	
 
 	// Instantiate the Unit Under Test (UUT)
 	MIPS uut (
 		.clk(clk), 
-		.reset(reset)
+		.reset(reset),
+		.memOutput(memOutput),
+		.memDir(memDir),
+		.memDato(memDato),
+		.mem_wd(mem_wd),
+		.mem_rd(mem_rd)
 	);
 
 	initial begin
 		// Initialize Inputs
 		clk = 1;
-		reset = 1;
+		reset = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
+		reset = 1;
+		#1;
 		reset = 0;
         
 		// Add stimulus here

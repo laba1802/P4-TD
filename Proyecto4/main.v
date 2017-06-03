@@ -45,7 +45,7 @@ module main(
 		.data_input(memDato),
 		.mem_rd(mem_rd),
 		.mem_wd(mem_wd),
-		.clk(clk),
+		//.clk(clk),
 		.data_output(mem_output)
 	 );
 

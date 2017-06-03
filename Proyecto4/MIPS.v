@@ -40,22 +40,42 @@ module MIPS(
 	
 	 ///////////////FLAGS DE COMPONENTES//////////////
 	 
-	 wire pc_ld, ir_w, reg_rd, reg_wr;
+	 reg pc_ld, ir_w, reg_rd, reg_wr, mem_wd_reg, mem_rd_reg;
 	 
-	 wire sel_dir, sel_dest, sel_dat, sel_operB;
-	 wire [1:0] sel_pc;
-	 wire [2:0] sel_operA, alu_fun;
+	 reg sel_dir, sel_dest, sel_dat, sel_operB;
+	 reg [1:0] sel_pc, sel_operA;
+	 reg [2:0] alu_fun;
 	 
 	 ///////////////SALIDA DE COMPONENTES/////////////
 	 
 	 wire [31:0] pc_out, muxSelDir_out, output_sel_pc, output_operA, output_operB, result_alu, 
-					extCero_out, extSign_out, regA_out, regB_out, despImm_out, despAddr_out, conc_out, 
-					banRegA_out, banRegB_out, regALU_out, muxSelDat_out;
-	 wire [25:0] jumpAddress;
+					extCero_out, extSign_out, regA_out, regB_out, despImm_out, conc_out, 
+					banRegA_out, banRegB_out, regALU_out, muxSelDat_out, regMem_out;
+	 wire [25:0] jumpAddress, despAddr_out;
 	 wire [5:0] opcode, funct;
 	 wire [4:0] rs, rt, rd, muxSelDest_out;
 	 wire [15:0] immediate;
 	 wire carry_alu, zero_alu, negative_alu;
+	 
+	 ///////////////INICIALIZACION DE BANDERAS////////
+	 
+	 initial begin
+		pc_ld 	  = 0;
+		ir_w 		  = 0;
+		reg_rd 	  = 0;
+		reg_wr 	  = 0;
+		sel_dir 	  = 0;
+		sel_dest   = 0;
+		sel_dat 	  = 0;
+		sel_operB  = 0;
+		sel_pc 	  = 0;
+		sel_operA  = 0;
+		alu_fun 	  = 0;
+		mem_wd_reg = 0;
+		mem_rd_reg = 0;
+	 end
+	 
+	 
 	 
 	 ///////////////LLAMADO DE FUNCIONES//////////////
 	 
@@ -213,26 +233,54 @@ module MIPS(
 		state_next = state_reg;
 		case(state_reg)
 			fetch: begin
-						$display("0");
 						state_next = deco;
+						$display("0");
+						
+						//Flags
+						pc_ld 	  = 1;
+						sel_dir 	  = 0;
+						mem_wd_reg = 0;
+						mem_rd_reg = 1;
+						ir_w 		  = 1;
+						sel_dest   = 0;
+						sel_dat 	  = 0;
+						reg_rd 	  = 0;
+						reg_wr 	  = 0;
+						sel_operB  = 0;
+						sel_operA  = 1;
+						alu_fun 	  = 2'd1;
+						sel_pc 	  = 0;
 					 end
 			deco: begin
 						$display("1");
+						pc_ld 	  = 0;
+						ir_w 		  = 0;
+						mem_rd_reg = 0;
 						state_next = exe;
 					end
 			exe: begin
 						$display("2");
+						pc_ld 	  = 0;
+						mem_rd_reg = 0;
 						state_next = mem;
 				  end
 			mem: begin
 						$display("3");
+						pc_ld 	  = 0;
+						mem_rd_reg = 0;
 						state_next = wb;
 				  end
 			wb: begin
 						$display("4");
+						pc_ld 	  = 0;
+						mem_rd_reg = 0;
 						state_next = fetch;
 				 end
 		endcase
 	 end
+	 
+	 assign mem_rd = mem_rd_reg;
+	 
+	 
 
 endmodule

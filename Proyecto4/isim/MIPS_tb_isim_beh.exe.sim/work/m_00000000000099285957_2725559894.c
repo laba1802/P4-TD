@@ -317,9 +317,9 @@ LAB95:    xsi_set_current_line(55, ng0);
 LAB96:    goto LAB2;
 
 LAB7:    xsi_set_current_line(39, ng0);
-    t7 = (t0 + 2000U);
-    t8 = *((char **)t7);
     t7 = (t0 + 2160U);
+    t8 = *((char **)t7);
+    t7 = (t0 + 2000U);
     t9 = *((char **)t7);
     xsi_vlog_unsigned_add(t10, 33, t8, 32, t9, 32);
     t7 = (t0 + 3360);
@@ -327,9 +327,9 @@ LAB7:    xsi_set_current_line(39, ng0);
     goto LAB21;
 
 LAB9:    xsi_set_current_line(40, ng0);
-    t3 = (t0 + 2000U);
-    t4 = *((char **)t3);
     t3 = (t0 + 2160U);
+    t4 = *((char **)t3);
+    t3 = (t0 + 2000U);
     t7 = *((char **)t3);
     xsi_vlog_unsigned_minus(t10, 33, t4, 32, t7, 32);
     t3 = (t0 + 3360);
@@ -337,7 +337,7 @@ LAB9:    xsi_set_current_line(40, ng0);
     goto LAB21;
 
 LAB11:    xsi_set_current_line(41, ng0);
-    t3 = (t0 + 2000U);
+    t3 = (t0 + 2160U);
     t4 = *((char **)t3);
     xsi_vlogtype_unsigned_bit_neg(t10, 33, t4, 32);
     t3 = (t0 + 3360);
@@ -345,9 +345,9 @@ LAB11:    xsi_set_current_line(41, ng0);
     goto LAB21;
 
 LAB13:    xsi_set_current_line(42, ng0);
-    t3 = (t0 + 2000U);
-    t4 = *((char **)t3);
     t3 = (t0 + 2160U);
+    t4 = *((char **)t3);
+    t3 = (t0 + 2000U);
     t7 = *((char **)t3);
     t11 = 0;
 
@@ -366,9 +366,9 @@ LAB34:    t65 = (t0 + 3360);
     goto LAB21;
 
 LAB15:    xsi_set_current_line(43, ng0);
-    t3 = (t0 + 2000U);
-    t4 = *((char **)t3);
     t3 = (t0 + 2160U);
+    t4 = *((char **)t3);
+    t3 = (t0 + 2000U);
     t7 = *((char **)t3);
     t11 = 0;
 
@@ -387,9 +387,9 @@ LAB47:    t69 = (t0 + 3360);
     goto LAB21;
 
 LAB17:    xsi_set_current_line(44, ng0);
-    t3 = (t0 + 2000U);
-    t4 = *((char **)t3);
     t3 = (t0 + 2160U);
+    t4 = *((char **)t3);
+    t3 = (t0 + 2000U);
     t7 = *((char **)t3);
     t11 = 0;
 
@@ -676,9 +676,9 @@ LAB67:    t19 = (t71 + 4);
     *((unsigned int *)t19) = 1;
     goto LAB68;
 
-LAB69:    t23 = (t0 + 2000U);
+LAB69:    t23 = (t0 + 2160U);
     t32 = *((char **)t23);
-    t23 = (t0 + 2160U);
+    t23 = (t0 + 2000U);
     t34 = *((char **)t23);
     memset(t72, 0, 8);
     t23 = (t32 + 4);

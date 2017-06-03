@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Reading design: main.prj
 
@@ -161,30 +161,26 @@ Elaborating module <MIPS>.
 Elaborating module <RegPC>.
 
 Elaborating module <Mux_Sel_Dir>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 74: Assignment to muxSelDir_out ignored, since the identifier is never used
 
 Elaborating module <RegInstruccion>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 82: Assignment to opcode ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 83: Assignment to funct ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 102: Assignment to opcode ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 103: Assignment to funct ignored, since the identifier is never used
 
 Elaborating module <Mux_Sel_PC>.
 
 Elaborating module <Mux_OperA>.
-WARNING:HDLCompiler:872 - "D:\FPGA\P4-TD\Proyecto4\Mux_OperA.v" Line 29: Using initial value of mask4 since it is never assigned
-WARNING:HDLCompiler:91 - "D:\FPGA\P4-TD\Proyecto4\Mux_OperA.v" Line 36: Signal <mask4> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 102: Size mismatch in connection of port <sel_operA>. Formal port size is 2-bit while actual signal size is 3-bit.
 
 Elaborating module <Mux_OperB>.
 
 Elaborating module <alu>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 117: Assignment to carry_alu ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 118: Assignment to zero_alu ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 119: Assignment to negative_alu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 137: Assignment to carry_alu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 138: Assignment to zero_alu ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 139: Assignment to negative_alu ignored, since the identifier is never used
 
 Elaborating module <Mux_Sel_Dest>.
 
 Elaborating module <ExtensionCero>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 133: Assignment to extCero_out ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 153: Assignment to extCero_out ignored, since the identifier is never used
 
 Elaborating module <ExtensionSigno>.
 
@@ -195,55 +191,30 @@ Elaborating module <RegB>.
 Elaborating module <Desplazamiento_imm>.
 
 Elaborating module <Desplazamiento_jumpAddress>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 160: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 180: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
 
 Elaborating module <Concatenacion>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 164: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 184: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
 
 Elaborating module <BancoRegistros>.
 
 Elaborating module <RegALU>.
 
 Elaborating module <RegMemoria>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 192: Size mismatch in connection of port <data_output>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 212: Size mismatch in connection of port <data_output>. Formal port size is 32-bit while actual signal size is 1-bit.
 
 Elaborating module <Mux_Sel_Dat>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 198: Size mismatch in connection of port <output_reg_mem>. Formal port size is 32-bit while actual signal size is 1-bit.
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 216. $display 0
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 220. $display 1
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 224. $display 2
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 228. $display 3
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 232. $display 4
-WARNING:HDLCompiler:634 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 43: Net <pc_ld> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 45: Net <sel_dir> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 46: Net <sel_pc[1]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 47: Net <sel_operA[1]> does not have a driver.
-WARNING:HDLCompiler:552 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 77: Input port instruction[31] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 113: Input port alu_fun[2] is not connected on this instance
-WARNING:HDLCompiler:552 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 189: Input port data_input[31] is not connected on this instance
+WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 218: Size mismatch in connection of port <output_reg_mem>. Formal port size is 32-bit while actual signal size is 1-bit.
+"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 237. $display 0
+"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 255. $display 1
+"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 262. $display 2
+"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 268. $display 3
+"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 274. $display 4
 
 Elaborating module <Memoria>.
-WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 46: Result of 30-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 53: Result of 30-bit expression is truncated to fit in 6-bit target.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 63. All outputs of instance <regPC_unit> of block <RegPC> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 70. All outputs of instance <muxSelDir> of block <Mux_Sel_Dir> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 77. All outputs of instance <regInst_unit> of block <RegInstruccion> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 90. All outputs of instance <muxSelPC> of block <Mux_Sel_PC> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 98. All outputs of instance <muxOperA> of block <Mux_OperA> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 106. All outputs of instance <muxOperB> of block <Mux_OperB> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 113. All outputs of instance <alu_unit> of block <alu> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 124. All outputs of instance <muxSelDest> of block <Mux_Sel_Dest> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 131. All outputs of instance <extCero> of block <ExtensionCero> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 136. All outputs of instance <extSign> of block <ExtensionSigno> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 141. All outputs of instance <regiA> of block <RegA> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 147. All outputs of instance <regiB> of block <RegB> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 153. All outputs of instance <despImm> of block <Desplazamiento_imm> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 158. All outputs of instance <despAddr> of block <Desplazamiento_jumpAddress> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 163. All outputs of instance <conc> of block <Concatenacion> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 169. All outputs of instance <banReg> of block <BancoRegistros> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 182. All outputs of instance <regiALU> of block <RegALU> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 189. All outputs of instance <regiMem> of block <RegMemoria> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 196. All outputs of instance <muxSelDat> of block <Mux_Sel_Dat> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 48: Result of 30-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 55: Result of 30-bit expression is truncated to fit in 6-bit target.
+WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 151. All outputs of instance <extCeero> of block <ExtensionCero> are unconnected in block <MIPS>. Underlying logic will be removed.
 WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\main.v" line 33. All outputs of instance <micro> of block <MIPS> are unconnected in block <main>. Underlying logic will be removed.
 WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\main.v" line 43. All outputs of instance <mem> of block <Memoria> are unconnected in block <main>. Underlying logic will be removed.
 
@@ -256,6 +227,411 @@ Synthesizing Unit <main>.
     Summary:
 	no macro.
 Unit <main> synthesized.
+
+Synthesizing Unit <RegPC>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegPC.v".
+    Found 1-bit register for signal <pc_reg<31>>.
+    Found 1-bit register for signal <pc_reg<30>>.
+    Found 1-bit register for signal <pc_reg<29>>.
+    Found 1-bit register for signal <pc_reg<28>>.
+    Found 1-bit register for signal <pc_reg<27>>.
+    Found 1-bit register for signal <pc_reg<26>>.
+    Found 1-bit register for signal <pc_reg<25>>.
+    Found 1-bit register for signal <pc_reg<24>>.
+    Found 1-bit register for signal <pc_reg<23>>.
+    Found 1-bit register for signal <pc_reg<22>>.
+    Found 1-bit register for signal <pc_reg<21>>.
+    Found 1-bit register for signal <pc_reg<20>>.
+    Found 1-bit register for signal <pc_reg<19>>.
+    Found 1-bit register for signal <pc_reg<18>>.
+    Found 1-bit register for signal <pc_reg<17>>.
+    Found 1-bit register for signal <pc_reg<16>>.
+    Found 1-bit register for signal <pc_reg<15>>.
+    Found 1-bit register for signal <pc_reg<14>>.
+    Found 1-bit register for signal <pc_reg<13>>.
+    Found 1-bit register for signal <pc_reg<12>>.
+    Found 1-bit register for signal <pc_reg<11>>.
+    Found 1-bit register for signal <pc_reg<10>>.
+    Found 1-bit register for signal <pc_reg<9>>.
+    Found 1-bit register for signal <pc_reg<8>>.
+    Found 1-bit register for signal <pc_reg<7>>.
+    Found 1-bit register for signal <pc_reg<6>>.
+    Found 1-bit register for signal <pc_reg<5>>.
+    Found 1-bit register for signal <pc_reg<4>>.
+    Found 1-bit register for signal <pc_reg<3>>.
+    Found 1-bit register for signal <pc_reg<2>>.
+    Found 1-bit register for signal <pc_reg<1>>.
+    Found 1-bit register for signal <pc_reg<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <RegPC> synthesized.
+
+Synthesizing Unit <Mux_Sel_Dir>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dir.v".
+    Summary:
+	no macro.
+Unit <Mux_Sel_Dir> synthesized.
+
+Synthesizing Unit <RegInstruccion>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegInstruccion.v".
+    Found 1-bit register for signal <opcode_reg<5>>.
+    Found 1-bit register for signal <opcode_reg<4>>.
+    Found 1-bit register for signal <opcode_reg<3>>.
+    Found 1-bit register for signal <opcode_reg<2>>.
+    Found 1-bit register for signal <opcode_reg<1>>.
+    Found 1-bit register for signal <opcode_reg<0>>.
+    Found 1-bit register for signal <jumpAddress_reg<25>>.
+    Found 1-bit register for signal <jumpAddress_reg<24>>.
+    Found 1-bit register for signal <jumpAddress_reg<23>>.
+    Found 1-bit register for signal <jumpAddress_reg<22>>.
+    Found 1-bit register for signal <jumpAddress_reg<21>>.
+    Found 1-bit register for signal <jumpAddress_reg<20>>.
+    Found 1-bit register for signal <jumpAddress_reg<19>>.
+    Found 1-bit register for signal <jumpAddress_reg<18>>.
+    Found 1-bit register for signal <jumpAddress_reg<17>>.
+    Found 1-bit register for signal <jumpAddress_reg<16>>.
+    Found 1-bit register for signal <jumpAddress_reg<15>>.
+    Found 1-bit register for signal <jumpAddress_reg<14>>.
+    Found 1-bit register for signal <jumpAddress_reg<13>>.
+    Found 1-bit register for signal <jumpAddress_reg<12>>.
+    Found 1-bit register for signal <jumpAddress_reg<11>>.
+    Found 1-bit register for signal <jumpAddress_reg<10>>.
+    Found 1-bit register for signal <jumpAddress_reg<9>>.
+    Found 1-bit register for signal <jumpAddress_reg<8>>.
+    Found 1-bit register for signal <jumpAddress_reg<7>>.
+    Found 1-bit register for signal <jumpAddress_reg<6>>.
+    Found 1-bit register for signal <jumpAddress_reg<5>>.
+    Found 1-bit register for signal <jumpAddress_reg<4>>.
+    Found 1-bit register for signal <jumpAddress_reg<3>>.
+    Found 1-bit register for signal <jumpAddress_reg<2>>.
+    Found 1-bit register for signal <jumpAddress_reg<1>>.
+    Found 1-bit register for signal <jumpAddress_reg<0>>.
+    Found 1-bit register for signal <funct_reg<5>>.
+    Found 1-bit register for signal <funct_reg<4>>.
+    Found 1-bit register for signal <funct_reg<3>>.
+    Found 1-bit register for signal <funct_reg<2>>.
+    Found 1-bit register for signal <funct_reg<1>>.
+    Found 1-bit register for signal <funct_reg<0>>.
+    Found 1-bit register for signal <rs_reg<4>>.
+    Found 1-bit register for signal <rs_reg<3>>.
+    Found 1-bit register for signal <rs_reg<2>>.
+    Found 1-bit register for signal <rs_reg<1>>.
+    Found 1-bit register for signal <rs_reg<0>>.
+    Found 1-bit register for signal <rt_reg<4>>.
+    Found 1-bit register for signal <rt_reg<3>>.
+    Found 1-bit register for signal <rt_reg<2>>.
+    Found 1-bit register for signal <rt_reg<1>>.
+    Found 1-bit register for signal <rt_reg<0>>.
+    Found 1-bit register for signal <rd_reg<4>>.
+    Found 1-bit register for signal <rd_reg<3>>.
+    Found 1-bit register for signal <rd_reg<2>>.
+    Found 1-bit register for signal <rd_reg<1>>.
+    Found 1-bit register for signal <rd_reg<0>>.
+    Found 1-bit register for signal <immediate_reg<15>>.
+    Found 1-bit register for signal <immediate_reg<14>>.
+    Found 1-bit register for signal <immediate_reg<13>>.
+    Found 1-bit register for signal <immediate_reg<12>>.
+    Found 1-bit register for signal <immediate_reg<11>>.
+    Found 1-bit register for signal <immediate_reg<10>>.
+    Found 1-bit register for signal <immediate_reg<9>>.
+    Found 1-bit register for signal <immediate_reg<8>>.
+    Found 1-bit register for signal <immediate_reg<7>>.
+    Found 1-bit register for signal <immediate_reg<6>>.
+    Found 1-bit register for signal <immediate_reg<5>>.
+    Found 1-bit register for signal <immediate_reg<4>>.
+    Found 1-bit register for signal <immediate_reg<3>>.
+    Found 1-bit register for signal <immediate_reg<2>>.
+    Found 1-bit register for signal <immediate_reg<1>>.
+    Found 1-bit register for signal <immediate_reg<0>>.
+    Found 1-bit register for signal <type_opcode<1>>.
+    Found 1-bit register for signal <type_opcode<0>>.
+    Summary:
+	inferred  71 D-type flip-flop(s).
+Unit <RegInstruccion> synthesized.
+
+Synthesizing Unit <Mux_Sel_PC>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_PC.v".
+    Summary:
+	no macro.
+Unit <Mux_Sel_PC> synthesized.
+
+Synthesizing Unit <Mux_OperA>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_OperA.v".
+    Summary:
+	no macro.
+Unit <Mux_OperA> synthesized.
+
+Synthesizing Unit <Mux_OperB>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_OperB.v".
+    Summary:
+	no macro.
+Unit <Mux_OperB> synthesized.
+
+Synthesizing Unit <alu>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\alu.v".
+    Summary:
+	no macro.
+Unit <alu> synthesized.
+
+Synthesizing Unit <Mux_Sel_Dest>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dest.v".
+    Summary:
+	no macro.
+Unit <Mux_Sel_Dest> synthesized.
+
+Synthesizing Unit <ExtensionSigno>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\ExtensionSigno.v".
+    Summary:
+	no macro.
+Unit <ExtensionSigno> synthesized.
+
+Synthesizing Unit <RegA>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegAB.v".
+    Found 1-bit register for signal <data_output_reg<31>>.
+    Found 1-bit register for signal <data_output_reg<30>>.
+    Found 1-bit register for signal <data_output_reg<29>>.
+    Found 1-bit register for signal <data_output_reg<28>>.
+    Found 1-bit register for signal <data_output_reg<27>>.
+    Found 1-bit register for signal <data_output_reg<26>>.
+    Found 1-bit register for signal <data_output_reg<25>>.
+    Found 1-bit register for signal <data_output_reg<24>>.
+    Found 1-bit register for signal <data_output_reg<23>>.
+    Found 1-bit register for signal <data_output_reg<22>>.
+    Found 1-bit register for signal <data_output_reg<21>>.
+    Found 1-bit register for signal <data_output_reg<20>>.
+    Found 1-bit register for signal <data_output_reg<19>>.
+    Found 1-bit register for signal <data_output_reg<18>>.
+    Found 1-bit register for signal <data_output_reg<17>>.
+    Found 1-bit register for signal <data_output_reg<16>>.
+    Found 1-bit register for signal <data_output_reg<15>>.
+    Found 1-bit register for signal <data_output_reg<14>>.
+    Found 1-bit register for signal <data_output_reg<13>>.
+    Found 1-bit register for signal <data_output_reg<12>>.
+    Found 1-bit register for signal <data_output_reg<11>>.
+    Found 1-bit register for signal <data_output_reg<10>>.
+    Found 1-bit register for signal <data_output_reg<9>>.
+    Found 1-bit register for signal <data_output_reg<8>>.
+    Found 1-bit register for signal <data_output_reg<7>>.
+    Found 1-bit register for signal <data_output_reg<6>>.
+    Found 1-bit register for signal <data_output_reg<5>>.
+    Found 1-bit register for signal <data_output_reg<4>>.
+    Found 1-bit register for signal <data_output_reg<3>>.
+    Found 1-bit register for signal <data_output_reg<2>>.
+    Found 1-bit register for signal <data_output_reg<1>>.
+    Found 1-bit register for signal <data_output_reg<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <RegA> synthesized.
+
+Synthesizing Unit <RegB>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegB.v".
+    Found 1-bit register for signal <data_output_reg<31>>.
+    Found 1-bit register for signal <data_output_reg<30>>.
+    Found 1-bit register for signal <data_output_reg<29>>.
+    Found 1-bit register for signal <data_output_reg<28>>.
+    Found 1-bit register for signal <data_output_reg<27>>.
+    Found 1-bit register for signal <data_output_reg<26>>.
+    Found 1-bit register for signal <data_output_reg<25>>.
+    Found 1-bit register for signal <data_output_reg<24>>.
+    Found 1-bit register for signal <data_output_reg<23>>.
+    Found 1-bit register for signal <data_output_reg<22>>.
+    Found 1-bit register for signal <data_output_reg<21>>.
+    Found 1-bit register for signal <data_output_reg<20>>.
+    Found 1-bit register for signal <data_output_reg<19>>.
+    Found 1-bit register for signal <data_output_reg<18>>.
+    Found 1-bit register for signal <data_output_reg<17>>.
+    Found 1-bit register for signal <data_output_reg<16>>.
+    Found 1-bit register for signal <data_output_reg<15>>.
+    Found 1-bit register for signal <data_output_reg<14>>.
+    Found 1-bit register for signal <data_output_reg<13>>.
+    Found 1-bit register for signal <data_output_reg<12>>.
+    Found 1-bit register for signal <data_output_reg<11>>.
+    Found 1-bit register for signal <data_output_reg<10>>.
+    Found 1-bit register for signal <data_output_reg<9>>.
+    Found 1-bit register for signal <data_output_reg<8>>.
+    Found 1-bit register for signal <data_output_reg<7>>.
+    Found 1-bit register for signal <data_output_reg<6>>.
+    Found 1-bit register for signal <data_output_reg<5>>.
+    Found 1-bit register for signal <data_output_reg<4>>.
+    Found 1-bit register for signal <data_output_reg<3>>.
+    Found 1-bit register for signal <data_output_reg<2>>.
+    Found 1-bit register for signal <data_output_reg<1>>.
+    Found 1-bit register for signal <data_output_reg<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <RegB> synthesized.
+
+Synthesizing Unit <Desplazamiento_imm>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_imm.v".
+WARNING:Xst:647 - Input <immediate<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Desplazamiento_imm> synthesized.
+
+Synthesizing Unit <Desplazamiento_jumpAddress>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_pc.v".
+    Summary:
+	no macro.
+Unit <Desplazamiento_jumpAddress> synthesized.
+
+Synthesizing Unit <Concatenacion>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Concatenacion.v".
+WARNING:Xst:647 - Input <PC<27:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <Concatenacion> synthesized.
+
+Synthesizing Unit <BancoRegistros>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\BancoRegistros.v".
+    Found 1-bit register for signal <dob_reg<31>>.
+    Found 1-bit register for signal <dob_reg<30>>.
+    Found 1-bit register for signal <dob_reg<29>>.
+    Found 1-bit register for signal <dob_reg<28>>.
+    Found 1-bit register for signal <dob_reg<27>>.
+    Found 1-bit register for signal <dob_reg<26>>.
+    Found 1-bit register for signal <dob_reg<25>>.
+    Found 1-bit register for signal <dob_reg<24>>.
+    Found 1-bit register for signal <dob_reg<23>>.
+    Found 1-bit register for signal <dob_reg<22>>.
+    Found 1-bit register for signal <dob_reg<21>>.
+    Found 1-bit register for signal <dob_reg<20>>.
+    Found 1-bit register for signal <dob_reg<19>>.
+    Found 1-bit register for signal <dob_reg<18>>.
+    Found 1-bit register for signal <dob_reg<17>>.
+    Found 1-bit register for signal <dob_reg<16>>.
+    Found 1-bit register for signal <dob_reg<15>>.
+    Found 1-bit register for signal <dob_reg<14>>.
+    Found 1-bit register for signal <dob_reg<13>>.
+    Found 1-bit register for signal <dob_reg<12>>.
+    Found 1-bit register for signal <dob_reg<11>>.
+    Found 1-bit register for signal <dob_reg<10>>.
+    Found 1-bit register for signal <dob_reg<9>>.
+    Found 1-bit register for signal <dob_reg<8>>.
+    Found 1-bit register for signal <dob_reg<7>>.
+    Found 1-bit register for signal <dob_reg<6>>.
+    Found 1-bit register for signal <dob_reg<5>>.
+    Found 1-bit register for signal <dob_reg<4>>.
+    Found 1-bit register for signal <dob_reg<3>>.
+    Found 1-bit register for signal <dob_reg<2>>.
+    Found 1-bit register for signal <dob_reg<1>>.
+    Found 1-bit register for signal <dob_reg<0>>.
+    Found 1-bit register for signal <doa_reg<31>>.
+    Found 1-bit register for signal <doa_reg<30>>.
+    Found 1-bit register for signal <doa_reg<29>>.
+    Found 1-bit register for signal <doa_reg<28>>.
+    Found 1-bit register for signal <doa_reg<27>>.
+    Found 1-bit register for signal <doa_reg<26>>.
+    Found 1-bit register for signal <doa_reg<25>>.
+    Found 1-bit register for signal <doa_reg<24>>.
+    Found 1-bit register for signal <doa_reg<23>>.
+    Found 1-bit register for signal <doa_reg<22>>.
+    Found 1-bit register for signal <doa_reg<21>>.
+    Found 1-bit register for signal <doa_reg<20>>.
+    Found 1-bit register for signal <doa_reg<19>>.
+    Found 1-bit register for signal <doa_reg<18>>.
+    Found 1-bit register for signal <doa_reg<17>>.
+    Found 1-bit register for signal <doa_reg<16>>.
+    Found 1-bit register for signal <doa_reg<15>>.
+    Found 1-bit register for signal <doa_reg<14>>.
+    Found 1-bit register for signal <doa_reg<13>>.
+    Found 1-bit register for signal <doa_reg<12>>.
+    Found 1-bit register for signal <doa_reg<11>>.
+    Found 1-bit register for signal <doa_reg<10>>.
+    Found 1-bit register for signal <doa_reg<9>>.
+    Found 1-bit register for signal <doa_reg<8>>.
+    Found 1-bit register for signal <doa_reg<7>>.
+    Found 1-bit register for signal <doa_reg<6>>.
+    Found 1-bit register for signal <doa_reg<5>>.
+    Found 1-bit register for signal <doa_reg<4>>.
+    Found 1-bit register for signal <doa_reg<3>>.
+    Found 1-bit register for signal <doa_reg<2>>.
+    Found 1-bit register for signal <doa_reg<1>>.
+    Found 1-bit register for signal <doa_reg<0>>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <BancoRegistros> synthesized.
+
+Synthesizing Unit <RegALU>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegALU.v".
+    Found 1-bit register for signal <data_output_reg<31>>.
+    Found 1-bit register for signal <data_output_reg<30>>.
+    Found 1-bit register for signal <data_output_reg<29>>.
+    Found 1-bit register for signal <data_output_reg<28>>.
+    Found 1-bit register for signal <data_output_reg<27>>.
+    Found 1-bit register for signal <data_output_reg<26>>.
+    Found 1-bit register for signal <data_output_reg<25>>.
+    Found 1-bit register for signal <data_output_reg<24>>.
+    Found 1-bit register for signal <data_output_reg<23>>.
+    Found 1-bit register for signal <data_output_reg<22>>.
+    Found 1-bit register for signal <data_output_reg<21>>.
+    Found 1-bit register for signal <data_output_reg<20>>.
+    Found 1-bit register for signal <data_output_reg<19>>.
+    Found 1-bit register for signal <data_output_reg<18>>.
+    Found 1-bit register for signal <data_output_reg<17>>.
+    Found 1-bit register for signal <data_output_reg<16>>.
+    Found 1-bit register for signal <data_output_reg<15>>.
+    Found 1-bit register for signal <data_output_reg<14>>.
+    Found 1-bit register for signal <data_output_reg<13>>.
+    Found 1-bit register for signal <data_output_reg<12>>.
+    Found 1-bit register for signal <data_output_reg<11>>.
+    Found 1-bit register for signal <data_output_reg<10>>.
+    Found 1-bit register for signal <data_output_reg<9>>.
+    Found 1-bit register for signal <data_output_reg<8>>.
+    Found 1-bit register for signal <data_output_reg<7>>.
+    Found 1-bit register for signal <data_output_reg<6>>.
+    Found 1-bit register for signal <data_output_reg<5>>.
+    Found 1-bit register for signal <data_output_reg<4>>.
+    Found 1-bit register for signal <data_output_reg<3>>.
+    Found 1-bit register for signal <data_output_reg<2>>.
+    Found 1-bit register for signal <data_output_reg<1>>.
+    Found 1-bit register for signal <data_output_reg<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <RegALU> synthesized.
+
+Synthesizing Unit <RegMemoria>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegMemoria.v".
+    Found 1-bit register for signal <data_output_reg<31>>.
+    Found 1-bit register for signal <data_output_reg<30>>.
+    Found 1-bit register for signal <data_output_reg<29>>.
+    Found 1-bit register for signal <data_output_reg<28>>.
+    Found 1-bit register for signal <data_output_reg<27>>.
+    Found 1-bit register for signal <data_output_reg<26>>.
+    Found 1-bit register for signal <data_output_reg<25>>.
+    Found 1-bit register for signal <data_output_reg<24>>.
+    Found 1-bit register for signal <data_output_reg<23>>.
+    Found 1-bit register for signal <data_output_reg<22>>.
+    Found 1-bit register for signal <data_output_reg<21>>.
+    Found 1-bit register for signal <data_output_reg<20>>.
+    Found 1-bit register for signal <data_output_reg<19>>.
+    Found 1-bit register for signal <data_output_reg<18>>.
+    Found 1-bit register for signal <data_output_reg<17>>.
+    Found 1-bit register for signal <data_output_reg<16>>.
+    Found 1-bit register for signal <data_output_reg<15>>.
+    Found 1-bit register for signal <data_output_reg<14>>.
+    Found 1-bit register for signal <data_output_reg<13>>.
+    Found 1-bit register for signal <data_output_reg<12>>.
+    Found 1-bit register for signal <data_output_reg<11>>.
+    Found 1-bit register for signal <data_output_reg<10>>.
+    Found 1-bit register for signal <data_output_reg<9>>.
+    Found 1-bit register for signal <data_output_reg<8>>.
+    Found 1-bit register for signal <data_output_reg<7>>.
+    Found 1-bit register for signal <data_output_reg<6>>.
+    Found 1-bit register for signal <data_output_reg<5>>.
+    Found 1-bit register for signal <data_output_reg<4>>.
+    Found 1-bit register for signal <data_output_reg<3>>.
+    Found 1-bit register for signal <data_output_reg<2>>.
+    Found 1-bit register for signal <data_output_reg<1>>.
+    Found 1-bit register for signal <data_output_reg<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <RegMemoria> synthesized.
+
+Synthesizing Unit <Mux_Sel_Dat>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dat.v".
+    Summary:
+	no macro.
+Unit <Mux_Sel_Dat> synthesized.
 
 =========================================================================
 HDL Synthesis Report
@@ -379,13 +755,13 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.26 secs
+Total CPU time to Xst completion: 13.41 secs
  
 --> 
 
 Total memory usage is 298996 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   44 (   0 filtered)
+Number of warnings :   17 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
