@@ -38,7 +38,8 @@ module RegInstruccion(
 	 reg [4:0] rs_reg, rt_reg, rd_reg;
 	 reg [15:0] immediate_reg;
 	 reg [1:0] type_opcode;
-	 reg [31:0] instruction_reg;
+	 reg [31:0] instruction_reg, instruction_next;
+	 wire [31:0] inst;
 	 
 	 initial begin
 		jumpAddress_reg = 0;
@@ -49,51 +50,18 @@ module RegInstruccion(
 		rd_reg 			 = 0;
 		immediate_reg 	 = 0;
 	 end
-
-	 always @ (posedge clk) begin				
-		case(instruction[31:26])
-			6'h0:  type_opcode = type_R; // Tipo R
-			6'h4:  type_opcode = type_I; // beq
-			6'h5:  type_opcode = type_I; // bne
-			6'h2:  type_opcode = type_J; // j
-			6'h23: type_opcode = type_I; // lw
-			6'h2b: type_opcode = type_I; // sw
-		endcase
-	 end
-
+	 
+	 
 	 always @ (negedge clk) begin
 		if(ir_w)  
-			begin				
-				case(type_opcode)
-					type_R: begin
-									opcode_reg 		 = instruction[31:26];
-									jumpAddress_reg = 0;
-									rs_reg    		 = instruction[25:21];
-									rt_reg    		 = instruction[20:16];
-									rd_reg    		 = instruction[15:11];
-									funct_reg 		 = instruction[5:0];
-									immediate_reg 	 = 0;
-							  end
-					type_I: begin
-									opcode_reg 		 = instruction[31:26];
-									jumpAddress_reg = 0;
-									funct_reg 		 = 0;
-									rs_reg        	 = instruction[25:21];
-									rt_reg        	 = instruction[20:16];
-									rd_reg 			 = 0;
-									immediate_reg 	 = instruction[15:0];
-							  end
-					type_J: begin
-									opcode_reg 		 = instruction[31:26];
-									jumpAddress_reg = instruction[25:0];
-									opcode_reg 		 = 0;
-									funct_reg 		 = 0;
-									rs_reg 			 = 0;
-									rt_reg 			 = 0;
-									rd_reg 			 = 0;
-									immediate_reg 	 = 0;
-							  end
-				endcase	
+			begin
+				opcode_reg 		 <= instruction[31:26];
+				jumpAddress_reg <= instruction[25:0];
+				rs_reg    		 <= instruction[25:21];
+				rt_reg    		 <= instruction[20:16];
+				rd_reg    		 <= instruction[15:11];
+				funct_reg 		 <= instruction[5:0];
+				immediate_reg 	 <= instruction[15:0];	
 			end
 	 end
 	 

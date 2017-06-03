@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>despAddr - Desplazamiento_jumpAddress (D:/FPGA/P4-TD/Proyecto4/Desplazamiento_pc.v)</SelectedItem>
+         <SelectedItem>micro - MIPS (D:/FPGA/P4-TD/Proyecto4/MIPS.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>despAddr - Desplazamiento_jumpAddress (D:/FPGA/P4-TD/Proyecto4/Desplazamiento_pc.v)</CurrentItem>
+      <CurrentItem>micro - MIPS (D:/FPGA/P4-TD/Proyecto4/MIPS.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -84,7 +84,6 @@
          <ClosedNode>/Desplazamiento_jumpAddress_tb D:|FPGA|P4-TD|Proyecto4|Desplazamiento_jumpAddress_tb.v</ClosedNode>
          <ClosedNode>/ExtensionCero_tb D:|FPGA|P4-TD|Proyecto4|ExtensionCero_tb.v</ClosedNode>
          <ClosedNode>/ExtensionSigno_tb D:|FPGA|P4-TD|Proyecto4|ExtensionSigno_tb.v</ClosedNode>
-         <ClosedNode>/MIPS_tb D:|FPGA|P4-TD|Proyecto4|MIPS_tb.v</ClosedNode>
          <ClosedNode>/Memoria_tb D:|FPGA|P4-TD|Proyecto4|Memoria_tb.v</ClosedNode>
          <ClosedNode>/Mux_OperA_tb D:|FPGA|P4-TD|Proyecto4|Mux_OperA_tb.v</ClosedNode>
          <ClosedNode>/Mux_OperB_tb D:|FPGA|P4-TD|Proyecto4|Mux_OperB_tb.v</ClosedNode>
@@ -96,14 +95,14 @@
          <ClosedNode>/RegInstruccion_tb D:|FPGA|P4-TD|Proyecto4|RegInstruccion_tb.v</ClosedNode>
          <ClosedNode>/RegPC_tb D:|FPGA|P4-TD|Proyecto4|RegPC_tb.v</ClosedNode>
          <ClosedNode>/alu_tb D:|FPGA|P4-TD|Proyecto4|alu_tb.v</ClosedNode>
-         <ClosedNode>/main_tb D:|FPGA|P4-TD|Proyecto4|main_tb.v</ClosedNode>
+         <ClosedNode>/main_tb D:|FPGA|P4-TD|Proyecto4|main_tb.v/uut - main/micro - MIPS</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>main_tb (D:/FPGA/P4-TD/Proyecto4/main_tb.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001b6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001b60000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>main_tb (D:/FPGA/P4-TD/Proyecto4/main_tb.v)</CurrentItem>
    </ItemView>

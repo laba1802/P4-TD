@@ -28,8 +28,7 @@ Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main.v" into library work
 Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main_tb.v" into library work
 Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 180: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 26-bit.
-WARNING:HDLCompiler:189 - "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 184: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 26-bit.
+WARNING:HDLCompiler:1016 - "D:/FPGA/P4-TD/Proyecto4/main.v" Line 43: Port clk is not connected to this instance
 Completed static elaboration
 Compiling module RegPC
 Compiling module Mux_Sel_Dir
@@ -56,8 +55,8 @@ Compiling module main
 Compiling module main_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 8 sub-compilation(s) to finish...
+Waiting for 6 sub-compilation(s) to finish...
 Compiled 24 Verilog Units
 Built simulation executable D:/FPGA/P4-TD/Proyecto4/main_tb_isim_beh.exe
-Fuse Memory Usage: 28284 KB
-Fuse CPU Usage: 1140 ms
+Fuse Memory Usage: 27668 KB
+Fuse CPU Usage: 1187 ms

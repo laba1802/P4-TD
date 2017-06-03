@@ -23,7 +23,7 @@ module Memoria(
 	input [31:0] data_input,
 	input mem_rd, 
 	input mem_wd, 
-	//input clk,
+	input clk,
 	output [31:0] data_output
 	);
 	
@@ -36,8 +36,10 @@ module Memoria(
 	
 	initial begin
 		for(i = 0; i < N; i = i + 1) memRegFile[i] <= 32'b0;
-		memRegFile[0] <= 32'h00EAF820;
-		memRegFile[1] <= 32'h8FF3AAAA;
+		memRegFile[1] <= 32'h08100006;
+		memRegFile[2] <= 32'h8FF3AAAA;
+		memRegFile[6] <= 32'h00EAF820;
+		memRegFile[7] <= 32'h08100006;
 		data_output_reg = 0;
 		index_rd = 0;
 		index_wd = 0;

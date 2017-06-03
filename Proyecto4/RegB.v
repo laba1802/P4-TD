@@ -30,7 +30,7 @@ module RegB(
 		data_output_reg = 0;
 	end
 	
-	always @ (negedge clk)
+	always @ (posedge clk)
 	begin
 		data_output_reg = data_input;
 	end

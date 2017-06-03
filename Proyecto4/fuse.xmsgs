@@ -5,10 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 180: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">output_jump</arg>&gt;. Formal port size is <arg fmt="%d" index="2">28</arg>-bit while actual signal size is <arg fmt="%d" index="1">26</arg>-bit.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 184: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">output_jump</arg>&gt;. Formal port size is <arg fmt="%d" index="2">28</arg>-bit while actual signal size is <arg fmt="%d" index="1">26</arg>-bit.
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/FPGA/P4-TD/Proyecto4/main.v" Line 43: Port <arg fmt="%s" index="1">clk</arg> is not connected to this instance
 </msg>
 
 </messages>

@@ -5,960 +5,498 @@ WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg35
 0
-   4194312
+opcode35
 1
-PC   4194312
 2
-PC   4194312
 3
-PC   4194312
 4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg 0
 0
-   4194316
+opcode 0
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
-0
-   4194320
+inst_reg 0
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
-0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+3
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg35
 0
-   4194316
+opcode35
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
+inst_reg 0
 0
-   4194320
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-PC   4194312
+inst_reg 0
+opcode 0
 1
-PC   4194312
-PC   4194312
 2
-PC   4194312
-PC   4194312
 3
-PC   4194312
-PC   4194312
 4
-PC   4194312
-PC   4194312
 0
-   4194312
-PC   4194316
-PC   4194320
+inst_reg 2
+0
+opcode 2
 1
-PC   4194320
-PC   4194320
+0
+inst_reg35
+0
+opcode35
+1
 2
-PC   4194320
-PC   4194320
 3
-PC   4194320
-PC   4194320
 4
-PC   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+0
+inst_reg 0
+0
+opcode 0
+1
+2
+3
+4
+0
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
 0
-   4194304
-PC   4194308
-0
-   4194308
+inst_reg 0
+opcode 0
 1
-PC   4194308
 2
-PC   4194308
 3
-PC   4194308
 4
-PC   4194308
 0
-   4194308
-PC   4194312
+inst_reg 2
 0
-   4194312
+opcode 2
 1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
 0
-   4194312
-PC   4194316
+inst_reg 0
 0
-   4194316
+opcode 0
 1
-PC   4194316
 2
-PC   4194316
 3
-PC   4194316
 4
-PC   4194316
 0
-   4194316
-PC   4194320
-0
-   4194320
+inst_reg 0
+opcode 0
 1
-PC   4194320
 2
-PC   4194320
 3
-PC   4194320
 4
-PC   4194320
 0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+inst_reg 0
+opcode 0
+1
+2
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
 This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-0
-   4194304
-PC   4194308
-0
-   4194308
-1
-PC   4194308
-2
-PC   4194308
-3
-PC   4194308
-4
-PC   4194308
-0
-   4194308
-PC   4194312
-0
-   4194312
-1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
-0
-   4194312
-PC   4194316
-0
-   4194316
-1
-PC   4194316
-2
-PC   4194316
-3
-PC   4194316
-4
-PC   4194316
-0
-   4194316
-PC   4194320
-0
-   4194320
-1
-PC   4194320
-2
-PC   4194320
-3
-PC   4194320
-4
-PC   4194320
-0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 47.  For instance micro/muxOperA/, width 2 of formal port sel_operA is not equal to width 3 of actual variable sel_operA. 
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 52.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 32 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/regiMem/, width 32 of formal port data_output is not equal to width 1 of actual signal regMem_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 212.  For instance micro/muxSelDat/, width 32 of formal port output_reg_mem is not equal to width 1 of actual signal regMem_out.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-Finished circuit initialization process.
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-PC   4194304
-0
-   4194304
-PC   4194308
-0
-   4194308
-1
-PC   4194308
-2
-PC   4194308
-3
-PC   4194308
-4
-PC   4194308
-0
-   4194308
-PC   4194312
-0
-   4194312
-1
-PC   4194312
-2
-PC   4194312
-3
-PC   4194312
-4
-PC   4194312
-0
-   4194312
-PC   4194316
-0
-   4194316
-1
-PC   4194316
-2
-PC   4194316
-3
-PC   4194316
-4
-PC   4194316
-0
-   4194316
-PC   4194320
-0
-   4194320
-1
-PC   4194320
-2
-PC   4194320
-3
-PC   4194320
-4
-PC   4194320
-0
-   4194320
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
-ISim P.20131013 (signature 0x7708f090)
-WARNING: A WEBPACK license was found.
-WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
-WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
-This is a Lite version of ISim.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 54.  For instance micro/despAddr/, width 28 of formal port output_jump is not equal to width 26 of actual signal despAddr_out.
-WARNING: File "D:/FPGA/P4-TD/Proyecto4/MIPS.v" Line 54.  For instance micro/conc/, width 28 of formal port output_jump is not equal to width 26 of actual signal despAddr_out.
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 0
+opcode 0
 1
 2
 3
 4
 0
+0
+opcode 2
+1
+0
+0
+opcode 0
 1
 2
 3
 4
 0
+0
+opcode 2
+1
+0
+0
+opcode 0
 1
 2
 3
 4
 0
-1
-2
-3
-4
 0
-Stopped at time : 501 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49
+Stopped at time : 500 ns : File "D:/FPGA/P4-TD/Proyecto4/main_tb.v" Line 49

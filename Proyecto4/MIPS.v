@@ -51,7 +51,8 @@ module MIPS(
 	 wire [31:0] pc_out, muxSelDir_out, output_sel_pc, output_operA, output_operB, result_alu, 
 					extCero_out, extSign_out, regA_out, regB_out, despImm_out, conc_out, 
 					banRegA_out, banRegB_out, regALU_out, muxSelDat_out, regMem_out;
-	 wire [25:0] jumpAddress, despAddr_out;
+	 wire [25:0] jumpAddress;
+	 wire [27:0] despAddr_out;
 	 wire [5:0] opcode, funct;
 	 wire [4:0] rs, rt, rd, muxSelDest_out;
 	 wire [15:0] immediate;
@@ -74,9 +75,7 @@ module MIPS(
 		mem_wd_reg = 0;
 		mem_rd_reg = 0;
 	 end
-	 
-	 
-	 
+	  
 	 ///////////////LLAMADO DE FUNCIONES//////////////
 	 
 	 //Fetch
@@ -252,17 +251,53 @@ module MIPS(
 						sel_pc 	  = 0;
 					 end
 			deco: begin
+						$display("opcode",opcode);
+						if(opcode == 6'h2) begin
+							sel_pc = 2'd2;
+							pc_ld 	  = 1;
+							state_next = fetch;
+						end
+						else begin
+							sel_pc = 0;
+							pc_ld 	  = 0;
+							state_next = exe;
+						end
 						$display("1");
-						pc_ld 	  = 0;
-						ir_w 		  = 0;
+						
+						//Flags
+						sel_dir 	  = 0;
+						mem_wd_reg = 0;
 						mem_rd_reg = 0;
-						state_next = exe;
+						ir_w 		  = 0;
+						sel_dest   = 0;
+						sel_dat 	  = 0;
+						reg_rd 	  = 1;
+						reg_wr 	  = 0;
+						sel_operB  = 0;
+						sel_operA  = 0;
+						alu_fun 	  = 2'd0;
+						
+						
 					end
 			exe: begin
-						$display("2");
-						pc_ld 	  = 0;
-						mem_rd_reg = 0;
 						state_next = mem;
+						$display("2");
+						
+						//Flags
+						pc_ld 	  = 0;
+						sel_dir 	  = 0;
+						mem_wd_reg = 0;
+						mem_rd_reg = 0;
+						ir_w 		  = 0;
+						sel_dest   = 0;
+						sel_dat 	  = 0;
+						reg_rd 	  = 0;
+						reg_wr 	  = 0;
+						sel_operB  = 1;
+						sel_operA  = 0;
+						alu_fun 	  = 2'd1;
+						sel_pc 	  = 0;
+						
 				  end
 			mem: begin
 						$display("3");

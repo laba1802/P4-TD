@@ -42,7 +42,7 @@ module main_tb;
 		// Wait 100 ns for global reset to finish
 		#100;
 		reset = 1;
-		#1;
+		#0;
 		reset = 0;
         
 		// Add stimulus here
