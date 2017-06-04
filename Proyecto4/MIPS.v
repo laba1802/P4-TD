@@ -232,9 +232,7 @@ module MIPS(
 		state_next = state_reg;
 		case(state_reg)
 			fetch: begin
-						state_next = deco;
-						$display("0");
-						
+						state_next = deco;						
 						//Flags
 						pc_ld 	  = 1;
 						sel_dir 	  = 0;
@@ -251,7 +249,6 @@ module MIPS(
 						sel_pc 	  = 0;
 					 end
 			deco: begin
-						$display("opcode",opcode);
 						if(opcode == 6'h2) begin
 							sel_pc = 2'd2;
 							pc_ld 	  = 1;
@@ -262,8 +259,8 @@ module MIPS(
 							pc_ld 	  = 0;
 							state_next = exe;
 						end
-						$display("1");
 						
+							
 						//Flags
 						sel_dir 	  = 0;
 						mem_wd_reg = 0;
@@ -275,16 +272,60 @@ module MIPS(
 						reg_wr 	  = 0;
 						sel_operB  = 0;
 						sel_operA  = 0;
-						alu_fun 	  = 2'd0;
+						alu_fun 	  = 2'd1;
 						
 						
 					end
 			exe: begin
-						state_next = mem;
-						$display("2");
+						case(opcode)
+							6'h0: begin
+										state_next = wb;
+										sel_operB  = 1;
+										sel_operA  = 0;
+										pc_ld 	  = 0;
+										case(funct)
+											6'h20: alu_fun = 3'd1; // add
+											6'h24: alu_fun = 3'd4; // and
+											6'h27: alu_fun = 3'd3; // nor
+											6'h25: alu_fun = 3'd5; // or
+											6'h22: alu_fun = 3'd2; //sub
+										endcase
+									end
+							6'h4: begin  //beq
+										if(regA_out == regA_out) begin
+											sel_operB  = 0;
+											sel_operA  = 2'd3;
+											pc_ld 	  = 1;
+										end
+										else pc_ld 	  = 0;
+										state_next = fetch;
+									end
+							6'h5: begin  //bne
+										if(regA_out != regA_out) begin
+											sel_operB  = 0;
+											sel_operA  = 2'd3;
+											pc_ld 	  = 1;
+										end
+										else pc_ld 	  = 0;
+										state_next = fetch;
+									end
+							6'h23: begin  //lw
+										state_next = mem;
+										sel_operB  = 1;
+										sel_operA  = 2'd2;
+										alu_fun 	  = 2'd1;
+										pc_ld 	  = 1;
+									end
+							6'h2B: begin  //sw
+										state_next = mem;
+										sel_operB  = 1;
+										sel_operA  = 2'd2;
+										alu_fun 	  = 2'd1;
+										pc_ld 	  = 1;
+									end
+						endcase
 						
 						//Flags
-						pc_ld 	  = 0;
 						sel_dir 	  = 0;
 						mem_wd_reg = 0;
 						mem_rd_reg = 0;
@@ -293,20 +334,15 @@ module MIPS(
 						sel_dat 	  = 0;
 						reg_rd 	  = 0;
 						reg_wr 	  = 0;
-						sel_operB  = 1;
-						sel_operA  = 0;
-						alu_fun 	  = 2'd1;
 						sel_pc 	  = 0;
 						
 				  end
 			mem: begin
-						$display("3");
 						pc_ld 	  = 0;
 						mem_rd_reg = 0;
 						state_next = wb;
 				  end
 			wb: begin
-						$display("4");
 						pc_ld 	  = 0;
 						mem_rd_reg = 0;
 						state_next = fetch;

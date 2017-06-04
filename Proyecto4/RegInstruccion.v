@@ -61,7 +61,7 @@ module RegInstruccion(
 				rt_reg    		 <= instruction[20:16];
 				rd_reg    		 <= instruction[15:11];
 				funct_reg 		 <= instruction[5:0];
-				immediate_reg 	 <= instruction[15:0];	
+				immediate_reg 	 <= instruction[15:0];				
 			end
 	 end
 	 

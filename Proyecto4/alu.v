@@ -29,7 +29,7 @@ module alu(
     );
 	 
 	 localparam N = 31;
-	 localparam [2:0] op_add = 3'd1, op_sub = 3'd2, op_not = 3'd3, op_and = 3'd4, op_or = 3'd5, op_xor = 3'd6; 
+	 localparam [2:0] op_add = 3'd1, op_sub = 3'd2, op_nor = 3'd3, op_and = 3'd4, op_or = 3'd5, op_xor = 3'd6; 
 	 reg [N+1:0] result_reg;
 	 reg flag_carry, flag_zero, flag_negative;
 	 	 
@@ -38,7 +38,7 @@ module alu(
 		case(alu_fun)
 			op_add: result_reg = operA + operB;
 			op_sub: result_reg = operA - operB;
-			op_not: result_reg = ~operA;
+			op_nor: result_reg = ~(operA | operB);
 			op_and: result_reg = operA & operB;
 			op_or:  result_reg = operA | operB;					  
 			op_xor: result_reg = operA ^ operB;  
