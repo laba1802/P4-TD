@@ -55,8 +55,8 @@ Compiling module main
 Compiling module main_tb
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 8 sub-compilation(s) to finish...
+Waiting for 10 sub-compilation(s) to finish...
 Compiled 24 Verilog Units
 Built simulation executable D:/FPGA/P4-TD/Proyecto4/main_tb_isim_beh.exe
-Fuse Memory Usage: 27696 KB
-Fuse CPU Usage: 1062 ms
+Fuse Memory Usage: 28524 KB
+Fuse CPU Usage: 1296 ms

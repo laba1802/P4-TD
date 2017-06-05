@@ -39,6 +39,7 @@ module BancoRegistros(
 		registers[4] <= 32'd18;
 		registers[5] <= 32'd7;
 		registers[10] <= 32'd7;
+		registers[15] <= 32'h400000;
 		doa_reg = 32'b0;
 		dob_reg = 32'b0;
 	 end

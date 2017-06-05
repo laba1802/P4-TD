@@ -130,8 +130,8 @@ module MIPS(
 	 );
 	 
 	 alu alu_unit(
-		.operB(output_operB),
-		.operA(output_operA),
+		.operB(output_operA),
+		.operA(output_operB),
 		.alu_fun(alu_fun),
 		.carry(carry_alu),
 		.zero(zero_alu),
@@ -314,14 +314,14 @@ module MIPS(
 										sel_operB  = 1;
 										sel_operA  = 2'd2;
 										alu_fun 	  = 2'd1;
-										pc_ld 	  = 1;
+										pc_ld 	  = 0;
 									end
 							6'h2B: begin  //sw
 										state_next = mem;
 										sel_operB  = 1;
 										sel_operA  = 2'd2;
 										alu_fun 	  = 2'd1;
-										pc_ld 	  = 1;
+										pc_ld 	  = 0;
 									end
 						endcase
 						
@@ -338,19 +338,78 @@ module MIPS(
 						
 				  end
 			mem: begin
+						case(opcode)
+							6'h23: begin  //lw
+										state_next = wb;
+										sel_dir 	  = 1;
+										mem_rd_reg = 1;
+										mem_wd_reg = 0;
+										sel_operB  = 1;
+										sel_operA  = 2'd2;
+										alu_fun 	  = 2'd1;
+									end
+							6'h2B: begin  //sw
+										state_next = fetch;
+										sel_dir 	  = 1;
+										sel_operB  = 1;
+										sel_operA  = 2'd2;
+										alu_fun 	  = 2'd1;
+										mem_rd_reg = 0;
+										mem_wd_reg = 1;
+									end
+						endcase
+						
+						//Flags
 						pc_ld 	  = 0;
-						mem_rd_reg = 0;
-						state_next = wb;
+						ir_w 		  = 0;
+						sel_dest   = 0;
+						sel_dat 	  = 0;
+						reg_rd 	  = 0;
+						reg_wr 	  = 0;
+						sel_pc 	  = 0;
+											
 				  end
 			wb: begin
-						pc_ld 	  = 0;
-						mem_rd_reg = 0;
 						state_next = fetch;
+						
+						if(opcode == 6'h23) begin
+							sel_dat 	  = 1;
+							sel_dir 	  = 1;
+							sel_dest   = 0;
+							reg_wr 	  = 1;
+							sel_operB  = 0;
+							sel_operA  = 0;
+							alu_fun = 3'd1;
+						end else begin
+							sel_dat 	  = 0;
+							sel_dir 	  = 0;
+							sel_dest   = 1;
+							reg_wr 	  = 1;
+							sel_operB  = 1;
+							sel_operA  = 0;
+							case(funct)
+								6'h20: alu_fun = 3'd1; // add
+								6'h24: alu_fun = 3'd4; // and
+								6'h27: alu_fun = 3'd3; // nor
+								6'h25: alu_fun = 3'd5; // or
+								6'h22: alu_fun = 3'd2; //sub
+							endcase
+						end
+						
+						//Flags
+						pc_ld 	  = 0;
+						mem_wd_reg = 0;
+						mem_rd_reg = 0;
+						ir_w 		  = 0;
+						reg_rd 	  = 0;
+						sel_pc 	  = 0;
 				 end
 		endcase
 	 end
 	 
-	 assign mem_rd = mem_rd_reg;
+	 assign mem_rd  = mem_rd_reg;
+	 assign memDato = regB_out;
+	 assign mem_wd  = mem_wd_reg;
 	 
 	 
 
