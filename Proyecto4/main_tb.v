@@ -46,7 +46,7 @@ module main_tb;
 		reset = 0;
         
 		// Add stimulus here
-		#400 $finish;
+		#800 $finish;
 	end
 	
 	always begin

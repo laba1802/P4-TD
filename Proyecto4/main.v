@@ -20,9 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 module main(
 	 input clk,
-	 input reset
+	 input kclk,
+	 input kdata,
+	 input reset,
+	 output [6:0]SEG,
+    output [3:0]AN,
+    output DP
     );
 	 
+	 wire [7:0] first, second, third, fourth;
+	 wire rx_done_tick, flag_receiver;
+	 
+	 /*
 	 ///////////////SALIDA DE COMPONENTES/////////////
 	 
 	 wire [31:0] mem_output, memDir, memDato;
@@ -47,6 +56,37 @@ module main(
 		.mem_wd(mem_wd),
 		//.clk(clk),
 		.data_output(mem_output)
+	 ); */
+	 
+	 reg CLK50MHZ=0; 	 
+	 wire [31:0]keycode, number_reg;
+	 
+	 always @(posedge(clk))begin
+			 CLK50MHZ<=~CLK50MHZ;
+		end
+
+	 keyboard_receiver keyboard (
+		.clk(CLK50MHZ),
+		.kclk(kclk),
+		.kdata(kdata),
+		.keycodeout(keycode[31:0]),
+		.flag_output(flag_receiver)
 	 );
+	 
+	 regNumber numero(
+		.clk(clk),
+		.x(keycode),
+		.flag(flag_receiver),
+		.number(number_reg)
+	);
+
+	 seg7decimal sevenSeg (
+		.x(number_reg),
+		.clk(clk),
+		.reset(reset),
+		.seg(SEG[6:0]),
+		.an(AN[3:0]),
+		.dp(DP) 
+		);
 
 endmodule

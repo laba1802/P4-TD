@@ -5,55 +5,112 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 102: Assignment to <arg fmt="%s" index="1">opcode</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\FPGA\P4-TD\Proyecto4\debouncer.v" Line 39: Result of <arg fmt="%d" index="1">38</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 103: Assignment to <arg fmt="%s" index="1">funct</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\FPGA\P4-TD\Proyecto4\debouncer.v" Line 47: Result of <arg fmt="%d" index="1">38</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 137: Assignment to <arg fmt="%s" index="1">carry_alu</arg> ignored, since the identifier is never used
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_0&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 138: Assignment to <arg fmt="%s" index="1">zero_alu</arg> ignored, since the identifier is never used
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_1&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 139: Assignment to <arg fmt="%s" index="1">negative_alu</arg> ignored, since the identifier is never used
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_2&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 153: Assignment to <arg fmt="%s" index="1">extCero_out</arg> ignored, since the identifier is never used
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_3&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 180: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">output_jump</arg>&gt;. Formal port size is <arg fmt="%d" index="2">28</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_4&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 184: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">output_jump</arg>&gt;. Formal port size is <arg fmt="%d" index="2">28</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_5&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 212: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">data_output</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_6&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 218: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">output_reg_mem</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">numero</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_7&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 48: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_3&gt; </arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 55: Result of <arg fmt="%d" index="1">30</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_4&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\FPGA\P4-TD\Proyecto4\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">151</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">extCeero</arg>&gt; of block &lt;<arg fmt="%s" index="4">ExtensionCero</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_5&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\FPGA\P4-TD\Proyecto4\main.v</arg>&quot; line <arg fmt="%d" index="2">33</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">micro</arg>&gt; of block &lt;<arg fmt="%s" index="4">MIPS</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">main</arg>&gt;. Underlying logic will be removed.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_6&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\FPGA\P4-TD\Proyecto4\main.v</arg>&quot; line <arg fmt="%d" index="2">43</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mem</arg>&gt; of block &lt;<arg fmt="%s" index="4">Memoria</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">main</arg>&gt;. Underlying logic will be removed.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_7&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">immediate&lt;31:30&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_0&gt; </arg>
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">PC&lt;27:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_an_temp</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">number_reg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">regNumber</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;number_ant_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">keycode_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">keyboard_receiver</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dataprev_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>

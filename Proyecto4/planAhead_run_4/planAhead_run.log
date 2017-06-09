@@ -1,0 +1,101 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/FPGA/P4-TD/Proyecto4/pa.fromHdl.tcl
+# create_project -name Proyecto4 -dir "D:/FPGA/P4-TD/Proyecto4/planAhead_run_4" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 409.047 ; gain = 52.836
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'D:/FPGA/P4-TD/Proyecto4/main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {debouncer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {seg7decimal.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {regNumber.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {keyboard_receiver.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {main.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top main $srcset
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/debouncer.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/seg7decimal.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/regNumber.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/keyboard_receiver.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main.v" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/FPGA/P4-TD/Proyecto4/main.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'a' [D:/FPGA/P4-TD/Proyecto4/main.ucf:24]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'a' [D:/FPGA/P4-TD/Proyecto4/main.ucf:28]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'b' [D:/FPGA/P4-TD/Proyecto4/main.ucf:32]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'b' [D:/FPGA/P4-TD/Proyecto4/main.ucf:36]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'c' [D:/FPGA/P4-TD/Proyecto4/main.ucf:40]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'c' [D:/FPGA/P4-TD/Proyecto4/main.ucf:44]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'd' [D:/FPGA/P4-TD/Proyecto4/main.ucf:48]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'd' [D:/FPGA/P4-TD/Proyecto4/main.ucf:52]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'e' [D:/FPGA/P4-TD/Proyecto4/main.ucf:61]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'e' [D:/FPGA/P4-TD/Proyecto4/main.ucf:65]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'f' [D:/FPGA/P4-TD/Proyecto4/main.ucf:66]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'f' [D:/FPGA/P4-TD/Proyecto4/main.ucf:70]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'g' [D:/FPGA/P4-TD/Proyecto4/main.ucf:74]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'g' [D:/FPGA/P4-TD/Proyecto4/main.ucf:78]
+Finished Parsing UCF File [D:/FPGA/P4-TD/Proyecto4/main.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 97db211c
+open_rtl_design: Time (s): elapsed = 00:00:28 . Memory (MB): peak = 553.656 ; gain = 127.156
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {SEG[6]} {SEG[5]} {SEG[4]} {SEG[3]} {SEG[2]} {SEG[1]} {SEG[0]}]]
+set_property package_pin "" [get_ports [list  {SEG[0]}]]
+startgroup
+set_property package_pin L14 [get_ports {SEG[6]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {SEG[5]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {SEG[4]}]
+endgroup
+startgroup
+set_property package_pin U18 [get_ports {SEG[3]}]
+endgroup
+startgroup
+set_property package_pin U17 [get_ports {SEG[2]}]
+endgroup
+startgroup
+set_property package_pin T18 [get_ports {SEG[1]}]
+endgroup
+startgroup
+set_property package_pin T17 [get_ports {SEG[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 08 13:46:39 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

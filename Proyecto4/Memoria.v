@@ -36,7 +36,7 @@ module Memoria(
 	
 	initial begin
 		for(i = 0; i < N; i = i + 1) memRegFile[i] <= 32'b0;
-		memRegFile[1] <= 32'h00853022;
+		//memRegFile[1] <= 32'h00853022;
 		//memRegFile[1] <= 32'h10AA0004;
 		//memRegFile[1] <= 32'h14AA0004;
 		//memRegFile[1] <= 32'h8DF00018; //lw
@@ -45,7 +45,14 @@ module Memoria(
 		//memRegFile[6] <= 32'h00EAF820;
 		//memRegFile[7] <= 32'h08100006;
 		//memRegFile[6] <= 32'h00853022;
-		memRegFile[6] <= 32'h18020707;
+		//memRegFile[6] <= 32'h18020707;
+		memRegFile[1] <= 32'h8DEA0050;
+		memRegFile[2] <= 32'h8DEB0054;
+		memRegFile[3] <= 32'h014B6020;
+		memRegFile[4] <= 32'hADEC0058;
+		
+		memRegFile[20] <= 32'd18;
+		memRegFile[21] <= 32'd7;
 		
 		data_output_reg = 0;
 		index_rd = 0;

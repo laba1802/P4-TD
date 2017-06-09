@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.29 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.30 secs
  
 --> Reading design: main.prj
 
@@ -105,48 +105,14 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegPC.v" into library work
-Parsing module <RegPC>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegMemoria.v" into library work
-Parsing module <RegMemoria>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegInstruccion.v" into library work
-Parsing module <RegInstruccion>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegB.v" into library work
-Parsing module <RegB>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegALU.v" into library work
-Parsing module <RegALU>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\RegAB.v" into library work
-Parsing module <RegA>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_PC.v" into library work
-Parsing module <Mux_Sel_PC>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dir.v" into library work
-Parsing module <Mux_Sel_Dir>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dest.v" into library work
-Parsing module <Mux_Sel_Dest>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dat.v" into library work
-Parsing module <Mux_Sel_Dat>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_OperB.v" into library work
-Parsing module <Mux_OperB>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Mux_OperA.v" into library work
-Parsing module <Mux_OperA>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\ExtensionSigno.v" into library work
-Parsing module <ExtensionSigno>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\ExtensionCero.v" into library work
-Parsing module <ExtensionCero>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_pc.v" into library work
-Parsing module <Desplazamiento_jumpAddress>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_imm.v" into library work
-Parsing module <Desplazamiento_imm>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Concatenacion.v" into library work
-Parsing module <Concatenacion>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\BancoRegistros.v" into library work
-Parsing module <BancoRegistros>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\alu.v" into library work
-Parsing module <alu>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\MIPS.v" into library work
-Parsing module <MIPS>.
-Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\Memoria.v" into library work
-Parsing module <Memoria>.
+Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\debouncer.v" into library work
+Parsing module <debouncer>.
+Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\seg7decimal.v" into library work
+Parsing module <seg7decimal>.
+Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\regNumber.v" into library work
+Parsing module <regNumber>.
+Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\keyboard_receiver.v" into library work
+Parsing module <keyboard_receiver>.
 Analyzing Verilog file "D:\FPGA\P4-TD\Proyecto4\main.v" into library work
 Parsing module <main>.
 
@@ -156,67 +122,15 @@ Parsing module <main>.
 
 Elaborating module <main>.
 
-Elaborating module <MIPS>.
+Elaborating module <keyboard_receiver>.
 
-Elaborating module <RegPC>.
+Elaborating module <debouncer>.
+WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\debouncer.v" Line 39: Result of 38-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\debouncer.v" Line 47: Result of 38-bit expression is truncated to fit in 5-bit target.
 
-Elaborating module <Mux_Sel_Dir>.
+Elaborating module <regNumber>.
 
-Elaborating module <RegInstruccion>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 102: Assignment to opcode ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 103: Assignment to funct ignored, since the identifier is never used
-
-Elaborating module <Mux_Sel_PC>.
-
-Elaborating module <Mux_OperA>.
-
-Elaborating module <Mux_OperB>.
-
-Elaborating module <alu>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 137: Assignment to carry_alu ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 138: Assignment to zero_alu ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 139: Assignment to negative_alu ignored, since the identifier is never used
-
-Elaborating module <Mux_Sel_Dest>.
-
-Elaborating module <ExtensionCero>.
-WARNING:HDLCompiler:1127 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 153: Assignment to extCero_out ignored, since the identifier is never used
-
-Elaborating module <ExtensionSigno>.
-
-Elaborating module <RegA>.
-
-Elaborating module <RegB>.
-
-Elaborating module <Desplazamiento_imm>.
-
-Elaborating module <Desplazamiento_jumpAddress>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 180: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
-
-Elaborating module <Concatenacion>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 184: Size mismatch in connection of port <output_jump>. Formal port size is 28-bit while actual signal size is 32-bit.
-
-Elaborating module <BancoRegistros>.
-
-Elaborating module <RegALU>.
-
-Elaborating module <RegMemoria>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 212: Size mismatch in connection of port <data_output>. Formal port size is 32-bit while actual signal size is 1-bit.
-
-Elaborating module <Mux_Sel_Dat>.
-WARNING:HDLCompiler:189 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 218: Size mismatch in connection of port <output_reg_mem>. Formal port size is 32-bit while actual signal size is 1-bit.
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 237. $display 0
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 255. $display 1
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 262. $display 2
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 268. $display 3
-"D:\FPGA\P4-TD\Proyecto4\MIPS.v" Line 274. $display 4
-
-Elaborating module <Memoria>.
-WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 48: Result of 30-bit expression is truncated to fit in 6-bit target.
-WARNING:HDLCompiler:413 - "D:\FPGA\P4-TD\Proyecto4\Memoria.v" Line 55: Result of 30-bit expression is truncated to fit in 6-bit target.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\MIPS.v" line 151. All outputs of instance <extCeero> of block <ExtensionCero> are unconnected in block <MIPS>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\main.v" line 33. All outputs of instance <micro> of block <MIPS> are unconnected in block <main>. Underlying logic will be removed.
-WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\main.v" line 43. All outputs of instance <mem> of block <Memoria> are unconnected in block <main>. Underlying logic will be removed.
+Elaborating module <seg7decimal>.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -224,448 +138,215 @@ WARNING:Xst:2972 - "D:\FPGA\P4-TD\Proyecto4\main.v" line 43. All outputs of inst
 
 Synthesizing Unit <main>.
     Related source file is "D:\FPGA\P4-TD\Proyecto4\main.v".
+    Found 1-bit register for signal <CLK50MHZ>.
     Summary:
-	no macro.
+	inferred   1 D-type flip-flop(s).
 Unit <main> synthesized.
 
-Synthesizing Unit <RegPC>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegPC.v".
-    Found 1-bit register for signal <pc_reg<31>>.
-    Found 1-bit register for signal <pc_reg<30>>.
-    Found 1-bit register for signal <pc_reg<29>>.
-    Found 1-bit register for signal <pc_reg<28>>.
-    Found 1-bit register for signal <pc_reg<27>>.
-    Found 1-bit register for signal <pc_reg<26>>.
-    Found 1-bit register for signal <pc_reg<25>>.
-    Found 1-bit register for signal <pc_reg<24>>.
-    Found 1-bit register for signal <pc_reg<23>>.
-    Found 1-bit register for signal <pc_reg<22>>.
-    Found 1-bit register for signal <pc_reg<21>>.
-    Found 1-bit register for signal <pc_reg<20>>.
-    Found 1-bit register for signal <pc_reg<19>>.
-    Found 1-bit register for signal <pc_reg<18>>.
-    Found 1-bit register for signal <pc_reg<17>>.
-    Found 1-bit register for signal <pc_reg<16>>.
-    Found 1-bit register for signal <pc_reg<15>>.
-    Found 1-bit register for signal <pc_reg<14>>.
-    Found 1-bit register for signal <pc_reg<13>>.
-    Found 1-bit register for signal <pc_reg<12>>.
-    Found 1-bit register for signal <pc_reg<11>>.
-    Found 1-bit register for signal <pc_reg<10>>.
-    Found 1-bit register for signal <pc_reg<9>>.
-    Found 1-bit register for signal <pc_reg<8>>.
-    Found 1-bit register for signal <pc_reg<7>>.
-    Found 1-bit register for signal <pc_reg<6>>.
-    Found 1-bit register for signal <pc_reg<5>>.
-    Found 1-bit register for signal <pc_reg<4>>.
-    Found 1-bit register for signal <pc_reg<3>>.
-    Found 1-bit register for signal <pc_reg<2>>.
-    Found 1-bit register for signal <pc_reg<1>>.
-    Found 1-bit register for signal <pc_reg<0>>.
+Synthesizing Unit <keyboard_receiver>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\keyboard_receiver.v".
+    Found 1-bit register for signal <datacur<7>>.
+    Found 1-bit register for signal <datacur<6>>.
+    Found 1-bit register for signal <datacur<5>>.
+    Found 1-bit register for signal <datacur<4>>.
+    Found 1-bit register for signal <datacur<3>>.
+    Found 1-bit register for signal <datacur<2>>.
+    Found 1-bit register for signal <datacur<1>>.
+    Found 1-bit register for signal <datacur<0>>.
+    Found 4-bit register for signal <cnt>.
+    Found 32-bit register for signal <keycode>.
+    Found 8-bit register for signal <dataprev>.
+    Found 1-bit register for signal <flag_reg>.
+    Found 1-bit register for signal <flag>.
+    Found 4-bit adder for signal <cnt[3]_GND_2_o_add_4_OUT> created at line 67.
+    Found 4-bit comparator greater for signal <n0003> created at line 67
+    Found 8-bit comparator equal for signal <n0019> created at line 73
     Summary:
-	inferred  32 D-type flip-flop(s).
-Unit <RegPC> synthesized.
+	inferred   1 Adder/Subtractor(s).
+	inferred  54 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <keyboard_receiver> synthesized.
 
-Synthesizing Unit <Mux_Sel_Dir>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dir.v".
+Synthesizing Unit <debouncer>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\debouncer.v".
+    Found 5-bit register for signal <cnt0>.
+    Found 1-bit register for signal <Iv0>.
+    Found 1-bit register for signal <O1>.
+    Found 5-bit register for signal <cnt1>.
+    Found 1-bit register for signal <Iv1>.
+    Found 1-bit register for signal <O0>.
+    Found 5-bit adder for signal <cnt0[4]_GND_3_o_add_3_OUT> created at line 36.
+    Found 5-bit adder for signal <cnt1[4]_GND_3_o_add_8_OUT> created at line 44.
+    Found 1-bit comparator equal for signal <I0_Iv0_equal_2_o> created at line 34
+    Found 1-bit comparator equal for signal <I1_Iv1_equal_7_o> created at line 42
     Summary:
-	no macro.
-Unit <Mux_Sel_Dir> synthesized.
+	inferred   2 Adder/Subtractor(s).
+	inferred  14 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <debouncer> synthesized.
 
-Synthesizing Unit <RegInstruccion>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegInstruccion.v".
-    Found 1-bit register for signal <opcode_reg<5>>.
-    Found 1-bit register for signal <opcode_reg<4>>.
-    Found 1-bit register for signal <opcode_reg<3>>.
-    Found 1-bit register for signal <opcode_reg<2>>.
-    Found 1-bit register for signal <opcode_reg<1>>.
-    Found 1-bit register for signal <opcode_reg<0>>.
-    Found 1-bit register for signal <jumpAddress_reg<25>>.
-    Found 1-bit register for signal <jumpAddress_reg<24>>.
-    Found 1-bit register for signal <jumpAddress_reg<23>>.
-    Found 1-bit register for signal <jumpAddress_reg<22>>.
-    Found 1-bit register for signal <jumpAddress_reg<21>>.
-    Found 1-bit register for signal <jumpAddress_reg<20>>.
-    Found 1-bit register for signal <jumpAddress_reg<19>>.
-    Found 1-bit register for signal <jumpAddress_reg<18>>.
-    Found 1-bit register for signal <jumpAddress_reg<17>>.
-    Found 1-bit register for signal <jumpAddress_reg<16>>.
-    Found 1-bit register for signal <jumpAddress_reg<15>>.
-    Found 1-bit register for signal <jumpAddress_reg<14>>.
-    Found 1-bit register for signal <jumpAddress_reg<13>>.
-    Found 1-bit register for signal <jumpAddress_reg<12>>.
-    Found 1-bit register for signal <jumpAddress_reg<11>>.
-    Found 1-bit register for signal <jumpAddress_reg<10>>.
-    Found 1-bit register for signal <jumpAddress_reg<9>>.
-    Found 1-bit register for signal <jumpAddress_reg<8>>.
-    Found 1-bit register for signal <jumpAddress_reg<7>>.
-    Found 1-bit register for signal <jumpAddress_reg<6>>.
-    Found 1-bit register for signal <jumpAddress_reg<5>>.
-    Found 1-bit register for signal <jumpAddress_reg<4>>.
-    Found 1-bit register for signal <jumpAddress_reg<3>>.
-    Found 1-bit register for signal <jumpAddress_reg<2>>.
-    Found 1-bit register for signal <jumpAddress_reg<1>>.
-    Found 1-bit register for signal <jumpAddress_reg<0>>.
-    Found 1-bit register for signal <funct_reg<5>>.
-    Found 1-bit register for signal <funct_reg<4>>.
-    Found 1-bit register for signal <funct_reg<3>>.
-    Found 1-bit register for signal <funct_reg<2>>.
-    Found 1-bit register for signal <funct_reg<1>>.
-    Found 1-bit register for signal <funct_reg<0>>.
-    Found 1-bit register for signal <rs_reg<4>>.
-    Found 1-bit register for signal <rs_reg<3>>.
-    Found 1-bit register for signal <rs_reg<2>>.
-    Found 1-bit register for signal <rs_reg<1>>.
-    Found 1-bit register for signal <rs_reg<0>>.
-    Found 1-bit register for signal <rt_reg<4>>.
-    Found 1-bit register for signal <rt_reg<3>>.
-    Found 1-bit register for signal <rt_reg<2>>.
-    Found 1-bit register for signal <rt_reg<1>>.
-    Found 1-bit register for signal <rt_reg<0>>.
-    Found 1-bit register for signal <rd_reg<4>>.
-    Found 1-bit register for signal <rd_reg<3>>.
-    Found 1-bit register for signal <rd_reg<2>>.
-    Found 1-bit register for signal <rd_reg<1>>.
-    Found 1-bit register for signal <rd_reg<0>>.
-    Found 1-bit register for signal <immediate_reg<15>>.
-    Found 1-bit register for signal <immediate_reg<14>>.
-    Found 1-bit register for signal <immediate_reg<13>>.
-    Found 1-bit register for signal <immediate_reg<12>>.
-    Found 1-bit register for signal <immediate_reg<11>>.
-    Found 1-bit register for signal <immediate_reg<10>>.
-    Found 1-bit register for signal <immediate_reg<9>>.
-    Found 1-bit register for signal <immediate_reg<8>>.
-    Found 1-bit register for signal <immediate_reg<7>>.
-    Found 1-bit register for signal <immediate_reg<6>>.
-    Found 1-bit register for signal <immediate_reg<5>>.
-    Found 1-bit register for signal <immediate_reg<4>>.
-    Found 1-bit register for signal <immediate_reg<3>>.
-    Found 1-bit register for signal <immediate_reg<2>>.
-    Found 1-bit register for signal <immediate_reg<1>>.
-    Found 1-bit register for signal <immediate_reg<0>>.
-    Found 1-bit register for signal <type_opcode<1>>.
-    Found 1-bit register for signal <type_opcode<0>>.
-    Summary:
-	inferred  71 D-type flip-flop(s).
-Unit <RegInstruccion> synthesized.
-
-Synthesizing Unit <Mux_Sel_PC>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_PC.v".
-    Summary:
-	no macro.
-Unit <Mux_Sel_PC> synthesized.
-
-Synthesizing Unit <Mux_OperA>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_OperA.v".
-    Summary:
-	no macro.
-Unit <Mux_OperA> synthesized.
-
-Synthesizing Unit <Mux_OperB>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_OperB.v".
-    Summary:
-	no macro.
-Unit <Mux_OperB> synthesized.
-
-Synthesizing Unit <alu>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\alu.v".
-    Summary:
-	no macro.
-Unit <alu> synthesized.
-
-Synthesizing Unit <Mux_Sel_Dest>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dest.v".
-    Summary:
-	no macro.
-Unit <Mux_Sel_Dest> synthesized.
-
-Synthesizing Unit <ExtensionSigno>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\ExtensionSigno.v".
-    Summary:
-	no macro.
-Unit <ExtensionSigno> synthesized.
-
-Synthesizing Unit <RegA>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegAB.v".
-    Found 1-bit register for signal <data_output_reg<31>>.
-    Found 1-bit register for signal <data_output_reg<30>>.
-    Found 1-bit register for signal <data_output_reg<29>>.
-    Found 1-bit register for signal <data_output_reg<28>>.
-    Found 1-bit register for signal <data_output_reg<27>>.
-    Found 1-bit register for signal <data_output_reg<26>>.
-    Found 1-bit register for signal <data_output_reg<25>>.
-    Found 1-bit register for signal <data_output_reg<24>>.
-    Found 1-bit register for signal <data_output_reg<23>>.
-    Found 1-bit register for signal <data_output_reg<22>>.
-    Found 1-bit register for signal <data_output_reg<21>>.
-    Found 1-bit register for signal <data_output_reg<20>>.
-    Found 1-bit register for signal <data_output_reg<19>>.
-    Found 1-bit register for signal <data_output_reg<18>>.
-    Found 1-bit register for signal <data_output_reg<17>>.
-    Found 1-bit register for signal <data_output_reg<16>>.
-    Found 1-bit register for signal <data_output_reg<15>>.
-    Found 1-bit register for signal <data_output_reg<14>>.
-    Found 1-bit register for signal <data_output_reg<13>>.
-    Found 1-bit register for signal <data_output_reg<12>>.
-    Found 1-bit register for signal <data_output_reg<11>>.
-    Found 1-bit register for signal <data_output_reg<10>>.
-    Found 1-bit register for signal <data_output_reg<9>>.
-    Found 1-bit register for signal <data_output_reg<8>>.
-    Found 1-bit register for signal <data_output_reg<7>>.
-    Found 1-bit register for signal <data_output_reg<6>>.
-    Found 1-bit register for signal <data_output_reg<5>>.
-    Found 1-bit register for signal <data_output_reg<4>>.
-    Found 1-bit register for signal <data_output_reg<3>>.
-    Found 1-bit register for signal <data_output_reg<2>>.
-    Found 1-bit register for signal <data_output_reg<1>>.
-    Found 1-bit register for signal <data_output_reg<0>>.
-    Summary:
-	inferred  32 D-type flip-flop(s).
-Unit <RegA> synthesized.
-
-Synthesizing Unit <RegB>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegB.v".
-    Found 1-bit register for signal <data_output_reg<31>>.
-    Found 1-bit register for signal <data_output_reg<30>>.
-    Found 1-bit register for signal <data_output_reg<29>>.
-    Found 1-bit register for signal <data_output_reg<28>>.
-    Found 1-bit register for signal <data_output_reg<27>>.
-    Found 1-bit register for signal <data_output_reg<26>>.
-    Found 1-bit register for signal <data_output_reg<25>>.
-    Found 1-bit register for signal <data_output_reg<24>>.
-    Found 1-bit register for signal <data_output_reg<23>>.
-    Found 1-bit register for signal <data_output_reg<22>>.
-    Found 1-bit register for signal <data_output_reg<21>>.
-    Found 1-bit register for signal <data_output_reg<20>>.
-    Found 1-bit register for signal <data_output_reg<19>>.
-    Found 1-bit register for signal <data_output_reg<18>>.
-    Found 1-bit register for signal <data_output_reg<17>>.
-    Found 1-bit register for signal <data_output_reg<16>>.
-    Found 1-bit register for signal <data_output_reg<15>>.
-    Found 1-bit register for signal <data_output_reg<14>>.
-    Found 1-bit register for signal <data_output_reg<13>>.
-    Found 1-bit register for signal <data_output_reg<12>>.
-    Found 1-bit register for signal <data_output_reg<11>>.
-    Found 1-bit register for signal <data_output_reg<10>>.
-    Found 1-bit register for signal <data_output_reg<9>>.
-    Found 1-bit register for signal <data_output_reg<8>>.
-    Found 1-bit register for signal <data_output_reg<7>>.
-    Found 1-bit register for signal <data_output_reg<6>>.
-    Found 1-bit register for signal <data_output_reg<5>>.
-    Found 1-bit register for signal <data_output_reg<4>>.
-    Found 1-bit register for signal <data_output_reg<3>>.
-    Found 1-bit register for signal <data_output_reg<2>>.
-    Found 1-bit register for signal <data_output_reg<1>>.
-    Found 1-bit register for signal <data_output_reg<0>>.
-    Summary:
-	inferred  32 D-type flip-flop(s).
-Unit <RegB> synthesized.
-
-Synthesizing Unit <Desplazamiento_imm>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_imm.v".
-WARNING:Xst:647 - Input <immediate<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Summary:
-	no macro.
-Unit <Desplazamiento_imm> synthesized.
-
-Synthesizing Unit <Desplazamiento_jumpAddress>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Desplazamiento_pc.v".
-    Summary:
-	no macro.
-Unit <Desplazamiento_jumpAddress> synthesized.
-
-Synthesizing Unit <Concatenacion>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Concatenacion.v".
-WARNING:Xst:647 - Input <PC<27:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Summary:
-	no macro.
-Unit <Concatenacion> synthesized.
-
-Synthesizing Unit <BancoRegistros>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\BancoRegistros.v".
-    Found 1-bit register for signal <dob_reg<31>>.
-    Found 1-bit register for signal <dob_reg<30>>.
-    Found 1-bit register for signal <dob_reg<29>>.
-    Found 1-bit register for signal <dob_reg<28>>.
-    Found 1-bit register for signal <dob_reg<27>>.
-    Found 1-bit register for signal <dob_reg<26>>.
-    Found 1-bit register for signal <dob_reg<25>>.
-    Found 1-bit register for signal <dob_reg<24>>.
-    Found 1-bit register for signal <dob_reg<23>>.
-    Found 1-bit register for signal <dob_reg<22>>.
-    Found 1-bit register for signal <dob_reg<21>>.
-    Found 1-bit register for signal <dob_reg<20>>.
-    Found 1-bit register for signal <dob_reg<19>>.
-    Found 1-bit register for signal <dob_reg<18>>.
-    Found 1-bit register for signal <dob_reg<17>>.
-    Found 1-bit register for signal <dob_reg<16>>.
-    Found 1-bit register for signal <dob_reg<15>>.
-    Found 1-bit register for signal <dob_reg<14>>.
-    Found 1-bit register for signal <dob_reg<13>>.
-    Found 1-bit register for signal <dob_reg<12>>.
-    Found 1-bit register for signal <dob_reg<11>>.
-    Found 1-bit register for signal <dob_reg<10>>.
-    Found 1-bit register for signal <dob_reg<9>>.
-    Found 1-bit register for signal <dob_reg<8>>.
-    Found 1-bit register for signal <dob_reg<7>>.
-    Found 1-bit register for signal <dob_reg<6>>.
-    Found 1-bit register for signal <dob_reg<5>>.
-    Found 1-bit register for signal <dob_reg<4>>.
-    Found 1-bit register for signal <dob_reg<3>>.
-    Found 1-bit register for signal <dob_reg<2>>.
-    Found 1-bit register for signal <dob_reg<1>>.
-    Found 1-bit register for signal <dob_reg<0>>.
-    Found 1-bit register for signal <doa_reg<31>>.
-    Found 1-bit register for signal <doa_reg<30>>.
-    Found 1-bit register for signal <doa_reg<29>>.
-    Found 1-bit register for signal <doa_reg<28>>.
-    Found 1-bit register for signal <doa_reg<27>>.
-    Found 1-bit register for signal <doa_reg<26>>.
-    Found 1-bit register for signal <doa_reg<25>>.
-    Found 1-bit register for signal <doa_reg<24>>.
-    Found 1-bit register for signal <doa_reg<23>>.
-    Found 1-bit register for signal <doa_reg<22>>.
-    Found 1-bit register for signal <doa_reg<21>>.
-    Found 1-bit register for signal <doa_reg<20>>.
-    Found 1-bit register for signal <doa_reg<19>>.
-    Found 1-bit register for signal <doa_reg<18>>.
-    Found 1-bit register for signal <doa_reg<17>>.
-    Found 1-bit register for signal <doa_reg<16>>.
-    Found 1-bit register for signal <doa_reg<15>>.
-    Found 1-bit register for signal <doa_reg<14>>.
-    Found 1-bit register for signal <doa_reg<13>>.
-    Found 1-bit register for signal <doa_reg<12>>.
-    Found 1-bit register for signal <doa_reg<11>>.
-    Found 1-bit register for signal <doa_reg<10>>.
-    Found 1-bit register for signal <doa_reg<9>>.
-    Found 1-bit register for signal <doa_reg<8>>.
-    Found 1-bit register for signal <doa_reg<7>>.
-    Found 1-bit register for signal <doa_reg<6>>.
-    Found 1-bit register for signal <doa_reg<5>>.
-    Found 1-bit register for signal <doa_reg<4>>.
-    Found 1-bit register for signal <doa_reg<3>>.
-    Found 1-bit register for signal <doa_reg<2>>.
-    Found 1-bit register for signal <doa_reg<1>>.
-    Found 1-bit register for signal <doa_reg<0>>.
+Synthesizing Unit <regNumber>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\regNumber.v".
+    Found 32-bit register for signal <number_ant>.
+    Found 32-bit register for signal <number_reg>.
+    Found 32-bit comparator not equal for signal <n0001> created at line 39
     Summary:
 	inferred  64 D-type flip-flop(s).
-Unit <BancoRegistros> synthesized.
+	inferred   1 Comparator(s).
+Unit <regNumber> synthesized.
 
-Synthesizing Unit <RegALU>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegALU.v".
-    Found 1-bit register for signal <data_output_reg<31>>.
-    Found 1-bit register for signal <data_output_reg<30>>.
-    Found 1-bit register for signal <data_output_reg<29>>.
-    Found 1-bit register for signal <data_output_reg<28>>.
-    Found 1-bit register for signal <data_output_reg<27>>.
-    Found 1-bit register for signal <data_output_reg<26>>.
-    Found 1-bit register for signal <data_output_reg<25>>.
-    Found 1-bit register for signal <data_output_reg<24>>.
-    Found 1-bit register for signal <data_output_reg<23>>.
-    Found 1-bit register for signal <data_output_reg<22>>.
-    Found 1-bit register for signal <data_output_reg<21>>.
-    Found 1-bit register for signal <data_output_reg<20>>.
-    Found 1-bit register for signal <data_output_reg<19>>.
-    Found 1-bit register for signal <data_output_reg<18>>.
-    Found 1-bit register for signal <data_output_reg<17>>.
-    Found 1-bit register for signal <data_output_reg<16>>.
-    Found 1-bit register for signal <data_output_reg<15>>.
-    Found 1-bit register for signal <data_output_reg<14>>.
-    Found 1-bit register for signal <data_output_reg<13>>.
-    Found 1-bit register for signal <data_output_reg<12>>.
-    Found 1-bit register for signal <data_output_reg<11>>.
-    Found 1-bit register for signal <data_output_reg<10>>.
-    Found 1-bit register for signal <data_output_reg<9>>.
-    Found 1-bit register for signal <data_output_reg<8>>.
-    Found 1-bit register for signal <data_output_reg<7>>.
-    Found 1-bit register for signal <data_output_reg<6>>.
-    Found 1-bit register for signal <data_output_reg<5>>.
-    Found 1-bit register for signal <data_output_reg<4>>.
-    Found 1-bit register for signal <data_output_reg<3>>.
-    Found 1-bit register for signal <data_output_reg<2>>.
-    Found 1-bit register for signal <data_output_reg<1>>.
-    Found 1-bit register for signal <data_output_reg<0>>.
+Synthesizing Unit <seg7decimal>.
+    Related source file is "D:\FPGA\P4-TD\Proyecto4\seg7decimal.v".
+    Found 18-bit register for signal <count>.
+    Found 18-bit adder for signal <count[17]_GND_5_o_add_0_OUT> created at line 46.
+    Found 4x4-bit Read Only RAM for signal <an_temp>
+    Found 8-bit 4-to-1 multiplexer for signal <digit> created at line 57.
     Summary:
-	inferred  32 D-type flip-flop(s).
-Unit <RegALU> synthesized.
-
-Synthesizing Unit <RegMemoria>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\RegMemoria.v".
-    Found 1-bit register for signal <data_output_reg<31>>.
-    Found 1-bit register for signal <data_output_reg<30>>.
-    Found 1-bit register for signal <data_output_reg<29>>.
-    Found 1-bit register for signal <data_output_reg<28>>.
-    Found 1-bit register for signal <data_output_reg<27>>.
-    Found 1-bit register for signal <data_output_reg<26>>.
-    Found 1-bit register for signal <data_output_reg<25>>.
-    Found 1-bit register for signal <data_output_reg<24>>.
-    Found 1-bit register for signal <data_output_reg<23>>.
-    Found 1-bit register for signal <data_output_reg<22>>.
-    Found 1-bit register for signal <data_output_reg<21>>.
-    Found 1-bit register for signal <data_output_reg<20>>.
-    Found 1-bit register for signal <data_output_reg<19>>.
-    Found 1-bit register for signal <data_output_reg<18>>.
-    Found 1-bit register for signal <data_output_reg<17>>.
-    Found 1-bit register for signal <data_output_reg<16>>.
-    Found 1-bit register for signal <data_output_reg<15>>.
-    Found 1-bit register for signal <data_output_reg<14>>.
-    Found 1-bit register for signal <data_output_reg<13>>.
-    Found 1-bit register for signal <data_output_reg<12>>.
-    Found 1-bit register for signal <data_output_reg<11>>.
-    Found 1-bit register for signal <data_output_reg<10>>.
-    Found 1-bit register for signal <data_output_reg<9>>.
-    Found 1-bit register for signal <data_output_reg<8>>.
-    Found 1-bit register for signal <data_output_reg<7>>.
-    Found 1-bit register for signal <data_output_reg<6>>.
-    Found 1-bit register for signal <data_output_reg<5>>.
-    Found 1-bit register for signal <data_output_reg<4>>.
-    Found 1-bit register for signal <data_output_reg<3>>.
-    Found 1-bit register for signal <data_output_reg<2>>.
-    Found 1-bit register for signal <data_output_reg<1>>.
-    Found 1-bit register for signal <data_output_reg<0>>.
-    Summary:
-	inferred  32 D-type flip-flop(s).
-Unit <RegMemoria> synthesized.
-
-Synthesizing Unit <Mux_Sel_Dat>.
-    Related source file is "D:\FPGA\P4-TD\Proyecto4\Mux_Sel_Dat.v".
-    Summary:
-	no macro.
-Unit <Mux_Sel_Dat> synthesized.
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <seg7decimal> synthesized.
 
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 4
+ 18-bit adder                                          : 1
+ 4-bit adder                                           : 1
+ 5-bit adder                                           : 2
+# Registers                                            : 23
+ 1-bit register                                        : 15
+ 18-bit register                                       : 1
+ 32-bit register                                       : 3
+ 4-bit register                                        : 1
+ 5-bit register                                        : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 5
+ 1-bit comparator equal                                : 2
+ 32-bit comparator not equal                           : 1
+ 4-bit comparator greater                              : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 3
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 4-to-1 multiplexer                              : 1
+
 =========================================================================
 
 =========================================================================
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+INFO:Xst:2261 - The FF/Latch <number_reg_0> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_0> 
+INFO:Xst:2261 - The FF/Latch <number_reg_1> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_1> 
+INFO:Xst:2261 - The FF/Latch <number_reg_2> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_2> 
+INFO:Xst:2261 - The FF/Latch <number_reg_3> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_3> 
+INFO:Xst:2261 - The FF/Latch <number_reg_4> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_4> 
+INFO:Xst:2261 - The FF/Latch <number_reg_5> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_5> 
+INFO:Xst:2261 - The FF/Latch <number_reg_6> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_6> 
+INFO:Xst:2261 - The FF/Latch <number_reg_7> in Unit <numero> is equivalent to the following FF/Latch, which will be removed : <number_ant_7> 
+INFO:Xst:2261 - The FF/Latch <keycode_3> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_3> 
+INFO:Xst:2261 - The FF/Latch <keycode_4> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_4> 
+INFO:Xst:2261 - The FF/Latch <keycode_5> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_5> 
+INFO:Xst:2261 - The FF/Latch <keycode_6> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_6> 
+INFO:Xst:2261 - The FF/Latch <keycode_7> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_7> 
+INFO:Xst:2261 - The FF/Latch <keycode_0> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_0> 
+INFO:Xst:2261 - The FF/Latch <keycode_1> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_1> 
+INFO:Xst:2261 - The FF/Latch <keycode_2> in Unit <keyboard> is equivalent to the following FF/Latch, which will be removed : <dataprev_2> 
+
+Synthesizing (advanced) Unit <debouncer>.
+The following registers are absorbed into counter <cnt0>: 1 register on signal <cnt0>.
+The following registers are absorbed into counter <cnt1>: 1 register on signal <cnt1>.
+Unit <debouncer> synthesized (advanced).
+
+Synthesizing (advanced) Unit <keyboard_receiver>.
+The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
+Unit <keyboard_receiver> synthesized (advanced).
+
+Synthesizing (advanced) Unit <seg7decimal>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_an_temp> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 4-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <count>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <an_temp>       |          |
+    -----------------------------------------------------------------------
+Unit <seg7decimal> synthesized (advanced).
 
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# RAMs                                                 : 1
+ 4x4-bit single-port distributed Read Only RAM         : 1
+# Counters                                             : 4
+ 18-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+ 5-bit up counter                                      : 2
+# Registers                                            : 119
+ Flip-Flops                                            : 119
+# Comparators                                          : 5
+ 1-bit comparator equal                                : 2
+ 32-bit comparator not equal                           : 1
+ 4-bit comparator greater                              : 1
+ 8-bit comparator equal                                : 1
+# Multiplexers                                         : 1
+ 8-bit 4-to-1 multiplexer                              : 1
+
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+INFO:Xst:2261 - The FF/Latch <number_reg_0> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_0> 
+INFO:Xst:2261 - The FF/Latch <number_reg_1> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_1> 
+INFO:Xst:2261 - The FF/Latch <number_reg_2> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_2> 
+INFO:Xst:2261 - The FF/Latch <number_reg_3> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_3> 
+INFO:Xst:2261 - The FF/Latch <number_reg_4> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_4> 
+INFO:Xst:2261 - The FF/Latch <number_reg_5> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_5> 
+INFO:Xst:2261 - The FF/Latch <number_reg_6> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_6> 
+INFO:Xst:2261 - The FF/Latch <number_reg_7> in Unit <regNumber> is equivalent to the following FF/Latch, which will be removed : <number_ant_7> 
+INFO:Xst:2261 - The FF/Latch <keycode_3> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_3> 
+INFO:Xst:2261 - The FF/Latch <keycode_4> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_4> 
+INFO:Xst:2261 - The FF/Latch <keycode_5> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_5> 
+INFO:Xst:2261 - The FF/Latch <keycode_6> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_6> 
+INFO:Xst:2261 - The FF/Latch <keycode_7> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_7> 
+INFO:Xst:2261 - The FF/Latch <keycode_0> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_0> 
+INFO:Xst:2261 - The FF/Latch <keycode_1> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_1> 
+INFO:Xst:2261 - The FF/Latch <keycode_2> in Unit <keyboard_receiver> is equivalent to the following FF/Latch, which will be removed : <dataprev_2> 
 
 Optimizing unit <main> ...
 
+Optimizing unit <regNumber> ...
+
+Optimizing unit <seg7decimal> ...
+
+Optimizing unit <keyboard_receiver> ...
+
+Optimizing unit <debouncer> ...
+
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 2.
 
 Final Macro Processing ...
 
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 135
+ Flip-Flops                                            : 135
+
 =========================================================================
 
 =========================================================================
@@ -687,6 +368,32 @@ Top Level Output File Name         : main.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
+# BELS                             : 209
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 17
+#      LUT2                        : 11
+#      LUT3                        : 31
+#      LUT4                        : 41
+#      LUT5                        : 9
+#      LUT6                        : 46
+#      MUXCY                       : 28
+#      MUXF7                       : 2
+#      VCC                         : 1
+#      XORCY                       : 18
+# FlipFlops/Latches                : 135
+#      FD                          : 37
+#      FD_1                        : 9
+#      FDC                         : 18
+#      FDE                         : 66
+#      FDR                         : 1
+#      FDRE                        : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 3
+#      OBUF                        : 12
 
 Device utilization summary:
 ---------------------------
@@ -695,19 +402,23 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
+ Number of Slice Registers:             135  out of  18224     0%  
+ Number of Slice LUTs:                  159  out of   9112     1%  
+    Number used as Logic:               159  out of   9112     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
-   Number of unique control sets:         0
+ Number of LUT Flip Flop pairs used:    179
+   Number with an unused Flip Flop:      44  out of    179    24%  
+   Number with an unused LUT:            20  out of    179    11%  
+   Number of fully used LUT-FF pairs:   115  out of    179    64%  
+   Number of unique control sets:        10
 
 IO Utilization: 
- Number of IOs:                           2
- Number of bonded IOBs:                   0  out of    232     0%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    232     6%  
 
 Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
 
 ---------------------------
 Partition Resource Summary:
@@ -727,7 +438,15 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+-------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)         | Load  |
+-----------------------------------+-------------------------------+-------+
+clk                                | BUFGP                         | 75    |
+keyboard/debounce/O0               | NONE(keyboard/cnt_3)          | 13    |
+keyboard/flag                      | BUFG                          | 33    |
+CLK50MHZ                           | NONE(keyboard/debounce/cnt1_4)| 14    |
+-----------------------------------+-------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -737,9 +456,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
+   Minimum period: 4.101ns (Maximum Frequency: 243.844MHz)
+   Minimum input arrival time before clock: 4.190ns
+   Maximum output required time after clock: 10.690ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -747,21 +466,222 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.073ns (frequency: 245.512MHz)
+  Total number of paths / destination ports: 2044 / 99
+-------------------------------------------------------------------------
+Delay:               4.073ns (Levels of Logic = 12)
+  Source:            numero/number_reg_2 (FF)
+  Destination:       numero/number_ant_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: numero/number_reg_2 to numero/number_ant_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.447   0.912  numero/number_reg_2 (numero/number_reg_2)
+     LUT6:I3->O            1   0.205   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_lut<0> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<0> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<1> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<2> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<3> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<4> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<5> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<6> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<7> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<8> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<9> (numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<9>)
+     MUXCY:CI->O          56   0.258   1.587  numero/Mcompar_number_ant[31]_x[31]_not_equal_1_o_cy<10> (numero/number_ant[31]_x[31]_not_equal_1_o)
+     FDE:CE                    0.322          numero/number_ant_8
+    ----------------------------------------
+    Total                      4.073ns (1.575ns logic, 2.498ns route)
+                                       (38.7% logic, 61.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'keyboard/debounce/O0'
+  Clock period: 2.943ns (frequency: 339.789MHz)
+  Total number of paths / destination ports: 83 / 21
+-------------------------------------------------------------------------
+Delay:               2.943ns (Levels of Logic = 1)
+  Source:            keyboard/cnt_2 (FF)
+  Destination:       keyboard/cnt_3 (FF)
+  Source Clock:      keyboard/debounce/O0 falling
+  Destination Clock: keyboard/debounce/O0 falling
+
+  Data Path: keyboard/cnt_2 to keyboard/cnt_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            13   0.447   1.180  keyboard/cnt_2 (keyboard/cnt_2)
+     LUT4:I0->O            4   0.203   0.683  keyboard/_n01061 (keyboard/_n0106)
+     FDRE:R                    0.430          keyboard/cnt_0
+    ----------------------------------------
+    Total                      2.943ns (1.080ns logic, 1.863ns route)
+                                       (36.7% logic, 63.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'keyboard/flag'
+  Clock period: 4.101ns (frequency: 243.844MHz)
+  Total number of paths / destination ports: 288 / 57
+-------------------------------------------------------------------------
+Delay:               4.101ns (Levels of Logic = 2)
+  Source:            keyboard/keycode_2 (FF)
+  Destination:       keyboard/keycode_31 (FF)
+  Source Clock:      keyboard/flag rising
+  Destination Clock: keyboard/flag rising
+
+  Data Path: keyboard/keycode_2 to keyboard/keycode_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.447   0.912  keyboard/keycode_2 (keyboard/keycode_2)
+     LUT6:I3->O            2   0.205   0.721  keyboard/n001982 (keyboard/n001981)
+     LUT6:I4->O           32   0.203   1.291  keyboard/n0019_inv1 (keyboard/n0019_inv)
+     FDE:CE                    0.322          keyboard/keycode_0
+    ----------------------------------------
+    Total                      4.101ns (1.177ns logic, 2.924ns route)
+                                       (28.7% logic, 71.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK50MHZ'
+  Clock period: 3.255ns (frequency: 307.220MHz)
+  Total number of paths / destination ports: 114 / 22
+-------------------------------------------------------------------------
+Delay:               3.255ns (Levels of Logic = 2)
+  Source:            keyboard/debounce/Iv1 (FF)
+  Destination:       keyboard/debounce/cnt1_4 (FF)
+  Source Clock:      CLK50MHZ rising
+  Destination Clock: CLK50MHZ rising
+
+  Data Path: keyboard/debounce/Iv1 to keyboard/debounce/cnt1_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.447   0.745  keyboard/debounce/Iv1 (keyboard/debounce/Iv1)
+     LUT2:I1->O            2   0.205   0.617  keyboard/debounce/_n0049_inv_SW0 (N10)
+     LUT6:I5->O            5   0.205   0.714  keyboard/debounce/_n0049_inv_inv (keyboard/debounce/_n0049_inv_inv)
+     FDE:CE                    0.322          keyboard/debounce/cnt1_0
+    ----------------------------------------
+    Total                      3.255ns (1.179ns logic, 2.076ns route)
+                                       (36.2% logic, 63.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 18 / 18
+-------------------------------------------------------------------------
+Offset:              2.701ns (Levels of Logic = 1)
+  Source:            reset (PAD)
+  Destination:       sevenSeg/count_17 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to sevenSeg/count_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            18   1.222   1.049  reset_IBUF (reset_IBUF)
+     FDC:CLR                   0.430          sevenSeg/count_0
+    ----------------------------------------
+    Total                      2.701ns (1.652ns logic, 1.049ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK50MHZ'
+  Total number of paths / destination ports: 26 / 24
+-------------------------------------------------------------------------
+Offset:              4.190ns (Levels of Logic = 3)
+  Source:            kdata (PAD)
+  Destination:       keyboard/debounce/cnt1_4 (FF)
+  Destination Clock: CLK50MHZ rising
+
+  Data Path: kdata to keyboard/debounce/cnt1_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   0.907  kdata_IBUF (kdata_IBUF)
+     LUT2:I0->O            2   0.203   0.617  keyboard/debounce/_n0049_inv_SW0 (N10)
+     LUT6:I5->O            5   0.205   0.714  keyboard/debounce/_n0049_inv_inv (keyboard/debounce/_n0049_inv_inv)
+     FDE:CE                    0.322          keyboard/debounce/cnt1_0
+    ----------------------------------------
+    Total                      4.190ns (1.952ns logic, 2.238ns route)
+                                       (46.6% logic, 53.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2829 / 11
+-------------------------------------------------------------------------
+Offset:              10.690ns (Levels of Logic = 7)
+  Source:            sevenSeg/count_17 (FF)
+  Destination:       SEG<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sevenSeg/count_17 to SEG<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.447   1.326  sevenSeg/count_17 (sevenSeg/count_17)
+     LUT6:I1->O           12   0.203   1.156  sevenSeg/Mmux_digit41 (sevenSeg/digit<3>)
+     LUT4:I0->O            2   0.203   0.981  sevenSeg/out2311 (sevenSeg/out231)
+     LUT6:I0->O            1   0.203   0.684  sevenSeg/out2_SW0 (N6)
+     LUT6:I4->O            2   0.203   0.617  sevenSeg/out2 (sevenSeg/out2)
+     LUT6:I5->O            6   0.205   1.109  sevenSeg/out3 (sevenSeg/n0016)
+     LUT6:I0->O            1   0.203   0.579  sevenSeg/seg<5>1 (SEG_2_OBUF)
+     OBUF:I->O                 2.571          SEG_2_OBUF (SEG<2>)
+    ----------------------------------------
+    Total                     10.690ns (4.238ns logic, 6.452ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock CLK50MHZ
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK50MHZ       |    3.255|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.073|         |         |         |
+keyboard/flag  |    4.207|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock keyboard/debounce/O0
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+CLK50MHZ            |         |         |    1.584|         |
+keyboard/debounce/O0|         |         |    2.943|         |
+--------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock keyboard/flag
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+keyboard/debounce/O0|         |    4.203|         |         |
+keyboard/flag       |    4.101|         |         |         |
+--------------------+---------+---------+---------+---------+
+
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.41 secs
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 26.94 secs
  
 --> 
 
-Total memory usage is 298996 kilobytes
+Total memory usage is 282804 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   17 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   34 (   0 filtered)
 

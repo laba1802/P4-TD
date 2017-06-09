@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-06-04T21:59:09</DateModified>
+  <DateModified>2017-06-08T10:38:00</DateModified>
   <ModuleName>main</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2017-06-08T00:49:43</SummaryTimeStamp>
   <SavedFilePath>D:/FPGA/P4-TD/Proyecto4/iseconfig/main.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/FPGA/P4-TD/Proyecto4\</ImplementationReportsDirectory>
   <DateInitialized>2017-06-02T15:29:03</DateInitialized>

@@ -1,0 +1,144 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Jun 05 14:21:07 2017
+# Process ID: 9316
+# Log file: D:/FPGA/P4-TD/Proyecto4/planAhead_run_1/planAhead.log
+# Journal file: D:/FPGA/P4-TD/Proyecto4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/FPGA/P4-TD/Proyecto4/pa.fromHdl.tcl
+# create_project -name Proyecto4 -dir "D:/FPGA/P4-TD/Proyecto4/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 375.023 ; gain = 29.422
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "main.ucf" [current_fileset -constrset]
+Adding file 'D:/FPGA/P4-TD/Proyecto4/main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {RegPC.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegMemoria.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegInstruccion.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegB.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegALU.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegAB.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_Sel_PC.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_Sel_Dir.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_Sel_Dest.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_Sel_Dat.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_OperB.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Mux_OperA.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ExtensionSigno.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ExtensionCero.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Desplazamiento_pc.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Desplazamiento_imm.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Concatenacion.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {BancoRegistros.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {alu.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MIPS.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Memoria.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {main.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top main $srcset
+# add_files [list {main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegPC.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegMemoria.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegInstruccion.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegB.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegALU.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/RegAB.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_PC.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dir.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dest.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_Sel_Dat.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_OperB.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Mux_OperA.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/ExtensionSigno.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/ExtensionCero.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_pc.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Desplazamiento_imm.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Concatenacion.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/BancoRegistros.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/alu.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/MIPS.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/Memoria.v" into library work
+Analyzing Verilog file "D:/FPGA/P4-TD/Proyecto4/main.v" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/FPGA/P4-TD/Proyecto4/main.ucf]
+Finished Parsing UCF File [D:/FPGA/P4-TD/Proyecto4/main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 7e32e498
+open_rtl_design: Time (s): elapsed = 00:00:26 . Memory (MB): peak = 480.688 ; gain = 90.543
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list clk]]
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/FPGA/P4-TD/Proyecto4\planAhead_pid9316.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Jun 05 14:27:32 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead
