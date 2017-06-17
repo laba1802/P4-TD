@@ -36,7 +36,7 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-reset       |    1.192(R)|      SLOW  |   -0.105(R)|      SLOW  |clk_BUFGP         |   0.000|
+reset       |    2.282(R)|      SLOW  |    0.039(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -44,17 +44,17 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-AN<0>       |         9.422(R)|      SLOW  |         5.192(R)|      FAST  |clk_BUFGP         |   0.000|
-AN<1>       |         9.222(R)|      SLOW  |         5.047(R)|      FAST  |clk_BUFGP         |   0.000|
-AN<2>       |         9.176(R)|      SLOW  |         5.072(R)|      FAST  |clk_BUFGP         |   0.000|
-AN<3>       |         9.127(R)|      SLOW  |         5.049(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<0>      |        14.435(R)|      SLOW  |         5.728(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<1>      |        14.302(R)|      SLOW  |         5.706(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<2>      |        14.987(R)|      SLOW  |         5.649(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<3>      |        14.528(R)|      SLOW  |         5.765(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<4>      |        14.358(R)|      SLOW  |         5.878(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<5>      |        14.967(R)|      SLOW  |         5.987(R)|      FAST  |clk_BUFGP         |   0.000|
-SEG<6>      |        15.176(R)|      SLOW  |         5.943(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<0>       |         9.333(R)|      SLOW  |         5.097(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<1>       |         9.284(R)|      SLOW  |         5.074(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<2>       |         9.280(R)|      SLOW  |         5.184(R)|      FAST  |clk_BUFGP         |   0.000|
+AN<3>       |         9.453(R)|      SLOW  |         5.301(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<0>      |        25.332(R)|      SLOW  |         6.621(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<1>      |        25.220(R)|      SLOW  |         6.077(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<2>      |        24.628(R)|      SLOW  |         6.741(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<3>      |        25.353(R)|      SLOW  |         6.396(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<4>      |        25.441(R)|      SLOW  |         6.787(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<5>      |        25.145(R)|      SLOW  |         6.258(R)|      FAST  |clk_BUFGP         |   0.000|
+SEG<6>      |        25.607(R)|      SLOW  |         6.665(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -62,18 +62,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.863|         |         |         |
+clk            |    5.612|    4.240|    2.907|    7.101|
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Thu Jun 08 19:16:57 2017 
+Analysis completed Sat Jun 17 00:28:58 2017 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 249 MB
+Peak Memory Usage: 284 MB
 
 
 

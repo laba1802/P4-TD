@@ -36,10 +36,21 @@ module BancoRegistros(
 	 integer i;
 	 initial begin
 		for(i = 0; i < 32; i = i + 1) registers[i] <= 32'b0;
-		registers[4] <= 32'd18;
-		registers[5] <= 32'd7;
-		//registers[10] <= 32'd7;
-		registers[15] <= 32'h400000;
+		registers[0] <= 32'd0;
+		registers[1] <= 32'd1;
+		registers[2] <= 32'd2;
+		registers[3] <= 32'd3;
+		registers[4] <= 32'd4;
+		registers[5] <= 32'd5;
+		registers[6] <= 32'd6;
+		registers[7] <= 32'd7;
+		registers[8] <= 32'd8;
+		registers[9] <= 32'd9;
+		registers[10] <= 32'd10;
+		registers[11] <= 32'd11;
+		registers[12] <= 32'd12;
+		registers[13] <= 32'd13;
+		registers[14] <= 32'h400000;
 		doa_reg = 32'b0;
 		dob_reg = 32'b0;
 	 end

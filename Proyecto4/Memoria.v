@@ -22,14 +22,22 @@ module Memoria(
 	input [31:0] dir, 
 	input [31:0] data_input,
 	input mem_rd, 
-	input mem_wd, 
-	input clk,
-	output [31:0] data_output
+	input mem_wd,
+	input mem_wd_NumberOne,
+	input [31:0] numberOne,
+	input mem_wd_NumberTwo,
+	input [31:0] numberTwo,
+	input mem_wd_Operation,
+	input [31:0] operation,
+	//input clk,
+	input mem_rd_Result,
+	output [31:0] data_output,
+	output [31:0] result_output
 	);
 	
 	reg [31:0] memRegFile [0:N];
 	reg [5:0] index_rd, index_wd;
-	reg [31:0] data_output_reg;
+	reg [31:0] data_output_reg, result_output_reg;
 	integer i;
 	localparam N = 63;
 	localparam initial_value = 32'h00400000;
@@ -46,13 +54,21 @@ module Memoria(
 		//memRegFile[7] <= 32'h08100006;
 		//memRegFile[6] <= 32'h00853022;
 		//memRegFile[6] <= 32'h18020707;
-		memRegFile[1] <= 32'h8DEA0050;
-		memRegFile[2] <= 32'h8DEB0054;
-		memRegFile[3] <= 32'h014B6020;
-		memRegFile[4] <= 32'hADEC0058;
-		
-		memRegFile[20] <= 32'd18;
-		memRegFile[21] <= 32'd7;
+		//memRegFile[1] <= 32'h8DEA0050;
+		//memRegFile[2] <= 32'h8DEB0054;
+		//memRegFile[3] <= 32'h014B6020;
+		//memRegFile[4] <= 32'hADEC0058;
+		//memRegFile[3] <= 32'd2703;
+		memRegFile[3]  <= 32'h1; //lw
+		memRegFile[4]  <= 32'h8DCF0008; //lw
+		memRegFile[5]  <= 32'h8DD00000; //lw
+		memRegFile[6]  <= 32'h8DD10004; //lw
+		//memRegFile[7]  <= 32'h15E10028; //bne
+		memRegFile[7]  <= 32'h02119020; //add
+		memRegFile[8]  <= 32'hADD2000C; //sw
+		memRegFile[9] <= 32'h08100004;//j
+		//memRegFile[20] <= 32'd18;
+		//memRegFile[21] <= 32'd7;
 		
 		data_output_reg = 0;
 		index_rd = 0;
@@ -65,6 +81,10 @@ module Memoria(
 		else index_wd = N;
 		
 		if(mem_wd) memRegFile[index_wd] <= data_input;
+		
+		if(mem_wd_NumberOne) memRegFile[0] <= numberOne;
+		if(mem_wd_NumberTwo) memRegFile[1] <= numberTwo;
+		if(mem_wd_Operation) memRegFile[2] <= operation;
 	end
 	
 	always @ * begin
@@ -74,6 +94,11 @@ module Memoria(
 		
 	end
 	
+	always @ * begin
+		if(mem_rd_Result) result_output_reg = memRegFile[3];
+	end
+	
 	assign data_output = data_output_reg;
+	assign result_output = result_output_reg;
 	
 endmodule

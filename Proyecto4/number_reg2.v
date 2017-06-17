@@ -28,15 +28,22 @@ module number_reg2;
 	reg clk;
 	reg [31:0] x;
 	reg flag;
+	reg [1:0] controller;
+   
 
 	// Outputs
+	wire flagNumberOne;
+	wire [31:0] direction;
 	wire [31:0] number;
 
 	// Instantiate the Unit Under Test (UUT)
 	regNumber uut (
-		.clk(clk), 
-		.x(x), 
-		.flag(flag), 
+		.clk(clk),
+		.controller(controller),
+		.x(x),
+		.flag(flag),
+		.flagNumberOne(flagNumberOne),
+		.direction(direction),
 		.number(number)
 	);
 
@@ -45,21 +52,20 @@ module number_reg2;
 		clk = 1;
 		x = 0;
 		flag = 0;
+		controller = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-        
+      controller = 1;  
 		// Add stimulus here
 		x = 32'hF016;
-		flag = 1;
+		flag = 0;
 		
 		#40;
-		x = 32'hF014;
-		flag = 1;
+		x = 32'hF01E;
 		
 		#40;
 		x = 32'hF016;
-		flag = 1;
 		
 	end
 	
